@@ -1,0 +1,19 @@
+// Override default variables here
+$topbar-margin-bottom: 0;
+$body-font-family: "Lato", Arial, sans-serif;
+$topbar-height: 72px;
+$topbar-bg: rgba(255,202,19,1);
+
+$topbar-title-font-size: emCalc(72px) !default;
+
+.top-bar{
+	height: 72px;
+	.name {
+		h1 {
+			font-style: italic;
+			font-weight: 900;
+			font-size: 2.5em;
+			margin: 0;
+		}
+	}
+}

@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+@import
+	"variables",
+	"../foundation/variables",
+	"../foundation/normalize",
+	"../foundation/components/global",
+	"../foundation/components/grid",
+	"../foundation/components/visibility",
+	"../foundation/components/block-grid",
+	"../foundation/components/type",
+	"../foundation/components/buttons",
+	"../foundation/components/forms",
+	"../foundation/components/custom-forms",
+	"../foundation/components/button-groups",
+	"../foundation/components/dropdown-buttons",
+	"../foundation/components/split-buttons",
+	"../foundation/components/flex-video",
+	"../foundation/components/section",
+	"../foundation/components/top-bar",
+	"../foundation/components/orbit",
+	"../foundation/components/reveal",
+	"../foundation/components/joyride",
+	"../foundation/components/clearing",
+	"../foundation/components/alert-boxes",
+	"../foundation/components/breadcrumbs",
+	"../foundation/components/keystrokes",
+	"../foundation/components/labels",
+	"../foundation/components/inline-lists",
+	"../foundation/components/pagination",
+	"../foundation/components/panels",
+	"../foundation/components/pricing-tables",
+	"../foundation/components/progress-bars",
+	"../foundation/components/side-nav",
+	"../foundation/components/sub-nav",
+	"../foundation/components/switch",
+	"../foundation/components/magellan",
+	"../foundation/components/tables",
+	"../foundation/components/thumbs",
+	"../foundation/components/tooltips",
+	"../foundation/components/dropdown";
+
+
+//Swatches
+$themeblue: rgba(0,71,136,1);
+$deepblue: rgba(27,10,74,1);
+$slateblue: rgba(70,82,103,1);
+$yellowz: rgba(255,202,19,1);
+$moss: rgba(66,176,120,1);
+$tan: rgba(123,117,114,1);
+$metalblue: rgba(92,113,158,1);
+$lilac: rgba(197,191,223,1);
+
+@mixin tilegrad() {
+	background: -moz-linear-gradient(top, rgba(133,239,110,1) 0%, rgba(133,239,110,0.85) 41%, rgba(109,210,149,0.82) 50%, rgba(54,144,240,0.9) 71%, rgba(30,105,222,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(133,239,110,1)), color-stop(41%,rgba(133,239,110,0.85)), color-stop(50%,rgba(109,210,149,0.82)), color-stop(71%,rgba(54,144,240,0.9)), color-stop(100%,rgba(30,105,222,1))); /* Chrome,Safari4+ */
+}
+
+
+body {
+	background-attachment: fixed;
+	background-color: #0a2148;
+	background-image: url(../img/asset/deportiva.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin:0;
+	padding: 0;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+@media only all and (max-width: 1280px) and (max-height: 728px) {
+	body {
+		background-size: 1280px 728px;
+		-moz-background-size: 1280px 728px;
+		-webkit-background-size: 1280px 728px;
+	}
+}
+@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+	body {
+		-webkit-background-size: auto 100%;
+	}
+}
+@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+	body {
+		-webkit-background-size: 100% auto;
+	}
+}
+div { /* IE hack? */
+zoom: 1 ;
+}
+.main {
+	position: relative;
+	padding: 0;
+	margin: 2px auto 0;
+}
+.front-grid {
+  @include grid-column(
+    // Control the number of columns
+    $columns:12,
+    // Specify whether or not this is the last column in the row
+    $last-column:false,
+    // Choose whether or not to center this column
+    $center:true,
+    // Choose the number of columns to offset this element by
+    $offset:0,
+    // Specify how many columns to push this element past
+    $push:0,
+    // Specify how many columns to pull this element past
+    $pull:0,
+    // Set to true to remove column padding
+    $collapse:true,
+    // Specify the float direction
+    $float:right
+  );
+}
+#featured {
+	img {
+		width: 1000px;
+		height: 400px;
+	}
+}
+.rack {
+
+	img {
+		width: 250px;
+		height: 250px;
+		background: $tan;
+	}
+}
+#species {
+
+	img {
+		width: 300px;
+		height: 200px;
+	}
+	p {
+		width: 66%;
+	}
+	.game{
+		border: 1px solid blue;
+	}
+	.shore {
+		border: 1px solid cyan;
+	}
+	.lrf {
+		border: 1px solid green;
+	}
+	.item{
+		a{
+			width: 100%;
+			display: block;
+		}
+	}
+}
+#test1 {
+	height: 350px;
+	width: 480px;
+}
+.orbit-container {
+	width: 50%;
+}
+.pfd {
+	padding:0;
+	margin:0;
+	img {
+		max-height: 200px;
+	}
+}
+footer {
+	display: block;
+	padding: 1em 0 0;
+	// margin: 0;
+	height: 350px;
+}
+/*---------------*/
+/***** Sarah *****/
+/*---------------*/
+
+figure.effect-sarah {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin: -0.15em;
+	height: 400px;
+	text-align: center;
+	cursor: pointer;
+	figcaption {
+		padding: 1.5em;
+		color: #fff;
+		text-transform: uppercase;
+		// font-size: 1.25em;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+	h2 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+	}
+	img {
+		display: block;
+		min-width: calc(100% + 30px);
+		min-height: 100%;
+		opacity: 0.8;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(-10px,0,0);
+		transform: translate3d(-10px,0,0);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+	p {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: 300;
+		text-transform: lowercase;
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(100%,0,0);
+		transform: translate3d(100%,0,0);
+	}
+	&:hover {
+		img {
+			opacity: 0.4;
+			-webkit-transform: translate3d(0,0,0);
+			transform: translate3d(0,0,0);
+		}
+		p {
+			opacity: 1;
+			-webkit-transform: translate3d(0,0,0);
+			transform: translate3d(0,0,0);
+		}
+	}
+}
+.ocean {
+	background: $deepblue;
+
+	h2 {
+		color: white;
+		left: 1em;
+	}
+	p {
+		padding-top: 10em;
+	}
+}
+.fly {
+	@include tilegrad;
+	h2 {
+		color: $yellowz;
+	}
+	p {
+		padding-top: 10em;
+	}
+}
+.shoreline {
+	background: $metalblue;
+	h2 {
+		color: $yellowz;
+		top: 85%;
+	}
+	p {
+		padding-top: 13em;
+	}
+}
+.rock {
+	background: $tan;
+	h2 {
+		color: white;
+		top: 85%;
+	}
+	p {
+		padding-top: 10em;
+	}
+}
+figure figcaption,figure a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+figure.effect-sarah h2::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+
+figure.effect-sarah:hover h2::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-sarah:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

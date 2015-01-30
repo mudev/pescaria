@@ -1,0 +1,46 @@
+{
+	"list": [
+		{
+			"name": "MTI Calcutta",
+			"price": "56.07",
+			"imgurl": "http://cdn1.bigcommerce.com/server2500/1a92e/products/46/images/4326/calcutta_all1__44686.1420909782.1280.1280.jpg",
+			"link": "http://www.airkayaks.com/products/MTI-Calcutta-Universal-Size-Fishing-PFD.html",
+			"notes": "designed to easily adjust to chest sizes ranging from 30 inches to 56 inches utilizing 7 adjustment points."
+		},
+		{
+			"name": "MTI Fisher SE",
+			"price": "39.58",
+			"imgurl": "http://cdn1.bigcommerce.com/server2500/1a92e/products/804/images/3558/WEB709F_1__58287.1411981935.1280.1280.jpg",
+			"link": "http://www.airkayaks.com/copy-of-mti-fisher-se-angler-fishing-pfd-vest/",
+			"notes": "This is the original MTI jacket outfited specifically for fishing, with new features."
+		},
+		{
+			"name": "MTI Solaris",
+			"price": "59.37",
+			"imgurl": "http://cdn1.bigcommerce.com/server2500/1a92e/products/58/images/319/mtifspec3__12738.1411982654.1280.1280.jpg",
+			"link": "http://www.airkayaks.com/products/MTI-Solaris-F-Spec-Angler-Fishing-PFD-Vest.html",
+			"notes": "All the comfort of the popular Solaris mesh back jacket, plus 'Fishing Specification' outfitting. The new Fishing Bridge is a pocket/rigid platform designed to open and provide a handy work surface, such as tying on lures."
+		},
+		{
+			"name": "NRS Chinook",
+			"price": "72.44",
+			"imgurl": "http://nrsweb5.richfx.com.edgesuite.net/image/media/40009_02_21501_Bark_Front_1_021413_1000x1000.jpg",
+			"link": "http://www.nrs.com/uk/en/product/40050.01/nrs-chinook-fishing-pfd-ceiso-approved",
+			"notes": "Pockets on pockets, lots of gear attachment points, plus flotation if you swim -- what's not to like about the NRS Chinook Life Jacket?"
+		},
+		{
+			"name": "Stohlquist Fisherman",
+			"price": "78.50",
+			"imgurl": "http://www.stohlquist.com/images/stohlquist/galleries/products/fisherman/FishermanCactusOpen.jpg",
+			"link": "http://www.airkayaks.com/stohlquist-fisherman-high-back-fishing-pfd-life-vest/",
+			"notes": "The Fisherman provides excellent cockpit management with places for the little things that could end up in your seator overboard. Dual front-mounted tool pouch pockets have protective EVA stiffened outer shells to protect pocket contents, and act as fold down workstations."
+		},
+		{
+			"name": "Crewsaver Teviot Auto",
+			"price": "145.95",
+			"imgurl": "/img/asset/auto.jpg",
+			"link": "http://www.wetsuitoutlet.co.uk/crewsaver-teviot-50n-fly-fishing-lifejacket-vest-auto-inflation-2379-p-6942.html",
+			"notes": "Inflation occurs automatically when the capsule is immersed.Capsule fires within 5 seconds of entry into water.Can also be inflated as manual version."
+		}
+	]
+}

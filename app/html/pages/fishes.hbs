@@ -1,0 +1,15 @@
+---
+title: Madeira Pescaria
+pageheader: Fishes of Madeira
+layout: app/html/layouts/default.hbs
+---
+
+<ul class="inline-list portfolio-list" id="filters">
+	<li><a href="#" class="selected" data-filter="*">All</a></li>
+	<li><a href="#" data-filter=".game">Game</a></li>
+	<li><a href="#" data-filter=".shore">Shore</a></li>
+	<li><a href="#" data-filter=".lrf">LRF</a></li>
+</ul>
+<div id="species">
+	{{#each fishes.list}}{{> fishui}}{{/each}}
+</div>

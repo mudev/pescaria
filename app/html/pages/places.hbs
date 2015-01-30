@@ -1,0 +1,19 @@
+---
+title: Madeira Pescaria
+pageheader: Spots on Madeira
+layout: app/html/layouts/default.hbs
+---
+<div class="row">
+	<div class="large-5 columns">
+		<h3>The Places</h3>
+		<p>Courtesy of net-madeira.com here are some of the coastal webcams available on Madeira.Interesting or informative is your decision</p>
+	</div>
+	<div class="large-6 columns">
+		<div id="test1" class="gmap3"></div>
+	</div>
+</div>
+<div class="row">
+	<ul class="small-block-grid-4">
+		{{#each webcams.list}}{{> camui}}{{/each}}
+	</ul>
+</div>

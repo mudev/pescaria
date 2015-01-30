@@ -1,0 +1,20 @@
+
+
+body
+{
+color: #fff7c8;
+background-color: #004000;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link     { color:white }
+a:visited  { color:teal }
+a:active   { color:teal }
+a:hover    { color:navy }
+
+{
+scrollbar-arrow-color: #46595D;
+scrollbar-base-color: #004000;
+scrollbar-dark-shadow-color: #DOCA8C;
+scrollbar-track-color: #46595D;
+}

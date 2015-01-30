@@ -1,0 +1,68 @@
+{
+	"list": [
+		{
+			"name": "Calheta",
+			"uri" : "calheta"
+		},
+		{
+			"name": "Clube Naval do Seixal",
+			"uri" : "clube-naval-seixal"
+		},
+		{
+			"name": "Funchal Lido",
+			"uri" : "funchal-lido"
+		},
+		{
+			"name": "Funchal Pontinha",
+			"uri" : "funchal-pontinha"
+		},
+		{
+			"name": "Machico",
+			"uri" : "machico"
+		},
+		{
+			"name": "Camara de Lobos",
+			"uri" : "camara-de-lobos"
+		},
+		{
+			"name": "Paul do Mar",
+			"uri" : "paul-do-mar"
+		},
+		{
+			"name": "Ponta Delgada",
+			"uri" : "ponta-delgada"
+		},
+		{
+			"name": "Ponts do Sol",
+			"uri" : "ponta-do-sol"
+		},
+		{
+			"name": "Portela Porto da Cruz",
+			"uri" : "portela-porto-da-cruz"
+		},
+		{
+			"name": "Porto Moniz",
+			"uri" : "porto-moniz"
+		},
+		{
+			"name": "Porto Santo",
+			"uri" : "porto-santo"
+		},
+		{
+			"name": "Praia Faial",
+			"uri" : "praia-faial"
+		},
+		{
+			"name": "Funchal Lido",
+			"uri" : "praia-do-vigario"
+		},
+		{
+			"name": "Funchal Lido",
+			"uri" : "ribeira-brava"
+		},
+		{
+			"name": "Funchal Lido",
+			"uri" : "santa-cruz"
+		}
+	]
+}
