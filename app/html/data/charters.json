@@ -1,0 +1,64 @@
+{
+	"list": [
+		{
+			"id": "0",
+			"name":"FishMadeira",
+			"uri":"http://fishmadeira.com/",
+			"boat":"Katherine B",
+			"boatimg": "kat_b.jpg",
+			"boat_type":"Nelson",
+			"b_length":"40ft",
+			"engines":"2*Perkins 350hp",
+			"tronics":"Auto Pilot.VHF Radio.Garmin GPS",
+			"rigs":"4 x 130 Penn International with extra 80, 50, and spinning gear"
+		},
+		{
+			"id": "1",
+			"name":"Madeira Sportfishing",
+			"uri":"http://www.madeirasportfishing.com/",
+			"boat":"Margarita",
+			"boatimg": "marg.jpg",
+			"boat_type":"Henriques",
+			"b_length":"35ft",
+			"engines":"2* Volvo/Penta 200hp",
+			"tronics":"a full range of electronics and safety equipment",
+			"rigs":"a full selection of rods and reels for all types of bluewater trolling"
+		},
+		{
+			"id": "2",
+			"name":"Fish in Madeira",
+			"uri":"http://www.fishinmadeira.com/index.html",
+			"boat":"Savage, Razzin Hell",
+			"boatimg": "razzin.jpg",
+			"boat_type":"Hatteras",
+			"b_length":"41ft",
+			"engines":"2*Cummings 450hp",
+			"tronics":"",
+			"rigs":"Shimano 130lbs reels fitted to new custom built rods."
+		},
+		{
+			"id": "3",
+			"name":"Madeira-Marlin",
+			"uri":"http://www.madeira-marlin.com/",
+			"boat":"M.Y. Balancal",
+			"boatimg": "balanc.jpg",
+			"boat_type":"Lochin 333 Flybridge",
+			"b_length":"33ft",
+			"engines":"2* Perkins 300hp",
+			"tronics":"-",
+			"rigs":"four 130 lb outfits comprising bent butt chair rods, Shimano Tiagra 130 reels"
+		},
+		{
+			"id": "4",
+			"name":"Big Game Madeira",
+			"uri":"http://www.biggamefishingmadeira.com/",
+			"boat":"Xareu",
+			"boatimg": "xareu.jpg",
+			"boat_type":"Rodman 1250",
+			"b_length":"39ft",
+			"engines":"2* Volvo/Penta 430hp inboard",
+			"tronics":"Simrad CX44 Navstation,GPS, Sounder, Chartplotter, Radar, Autopilot, 2 x VHF Radios,Satellite phone",
+			"rigs":""
+		}
+	]
+}

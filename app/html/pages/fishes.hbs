@@ -1,15 +1,17 @@
 ---
 title: Madeira Pescaria
 pageheader: Fishes of Madeira
-layout: app/html/layouts/default.hbs
+layout: app/html/layouts/iso.hbs
 ---
-
-<ul class="inline-list portfolio-list" id="filters">
-	<li><a href="#" class="selected" data-filter="*">All</a></li>
-	<li><a href="#" data-filter=".game">Game</a></li>
-	<li><a href="#" data-filter=".shore">Shore</a></li>
-	<li><a href="#" data-filter=".lrf">LRF</a></li>
-</ul>
-<div id="species">
-	{{#each fishes.list}}{{> fishui}}{{/each}}
+<div class="button-group" id="filters">
+  <h5>Sort:</h5>
+  <button class="button is-checked" data-filter="*">All</button>
+  <button class="button" data-filter=".game">Game</button>
+  <button class="button" data-filter=".shore">Shore</button>
+  <button class="button" data-filter=".lrf">LRF</button>
+</div>
+<h2>Fish Of Madeira</h2>
+<h5 class="subheader">Locals &amp; Visitors</h5>
+<div class="species">
+	{{#each fishes.list}}{{> fishpod}}{{/each}}
 </div>

@@ -1,158 +1,178 @@
 {
 	"list": [
 		{
+			"id": "0",
 			"name": "Giant Oceanic Manta Ray",
 			"namepor": "Jamanta(juggernaut!)",
 			"latin": "Manta birostris",
 			"tag": "blank",
-			"imgurl": "http://imagebank.madeirabirds.com/small_devil_ray.jpg",
+			"imgurl": "/img/fish/manta_birostris.jpg",
 			"notes": "Filter feeders, consuming large quantities of zooplankton in the form of shrimp, krill and planktonic crabs.Can grow to a disc size of up to 9 m (30 ft) across, with a weight of about 1,350 kg (2,980 lb)"
 		},
 		{
+			"id": "1",
 			"name": "Small Devil Ray",
 			"namepor": "Pequeno raio diabo",
 			"latin": "Mobula mobular",
 			"tag": "blank",
-			"imgurl": "https://c2.staticflickr.com/4/3270/2993107550_a69c51544b.jpg",
+			"imgurl": "/img/fish/small_devil.jpg",
 			"notes": "Similar range and habits to the Giant Ray,growing to a maximum length of 5.2 metres(17ft), possessing a spiny tail."
 		},
 		{
+			"id": "2",
 			"name": "Eagle Ray",
 			"namepor": "Raio de águia",
 			"latin": "Myliobatis aquila",
 			"tag": "shore",
-			"imgurl": "http://www.cibsub.com/rcs_gene/Myliobatis_aquila04.jpg",
-			"notes": "Eagle rays feed on mollusks and crustaceans, crushing their shells with their flattened teeth.can grow extremely large, up to 180 cm including the tail. The tail looks like a whip and may be as long as the body. It is armed with a sting. Eagle rays live close to the coast in depths of 1 to 30 m and in exceptional cases they are found as deep as 300 m."
+			"imgurl": "/img/fish/myliobatis_aquila.jpg",
+			"notes": "Eagle rays feed on mollusks and crustaceans.Can grow extremely large, up to 180 cm including the tail. The tail looks like a whip and may be as long as the body-armed with a sting.Living close to the coast in depths of 1 to 30 m and in exceptional cases they are found as deep as 300 m."
 		},
 		{
+			"id": "3",
 			"name": "Round Stingray",
 			"namepor": "",
 			"latin": "Taeniura grabata",
 			"tag": "shore",
-			"imgurl": "http://www.elasmodiver.com/Sharkive%20images/RoundStingray001.jpg",
+			"imgurl": "/img/fish/roundStingray001.jpg",
 			"notes": "The round fantail stingray has a nearly circular pectoral fin disk slightly wider than long. one or more stinging spines on the upper surface of the tail.The skin is mostly smooth, save for small dermal denticles found along the middle of the back from the spiracles to the tail spine, as well as three thorns on the 'shoulders'. The coloration is dark gray to brown to olive above, with various darker mottling, and off-white below.grows up to 1 m(3.3ft) across and 1.5m(4.9ft) long."
 		},
 		{
+			"id": "4",
 			"name": "Common Stingray",
 			"namepor": "",
 			"latin": "Dasyatis pastinaca",
 			"tag": "shore",
-			"imgurl": "http://upload.wikimedia.org/wikipedia/commons/4/46/Black_sea_fauna_stingray_01.jpg",
-			"notes": "Typically inhabits sandy or muddy habitats in coastal waters shallower than 60m (200ft), often burying itself in sediment. The predominant prey of the common stingray are bottom-dwelling crustaceans, though it also takes molluscs, polychaete worms, and small bony fishes.Usually measuring 45cm(18in) across, the common stingray has a diamond-shaped pectoral fin disc slightly wider than long, and a whip-like tail with upper and lower fin folds. It can be identified by its plain coloration and mostly smooth skin, except for a row of tubercles along the midline of the back in the largest individuals.And a Dirty great tail with a lethal sting,duhh."
+			"imgurl": "/img/fish/stingray_01.jpg",
+			"notes": "Typically inhabits sandy or muddy habitats in coastal waters,eating bottom-dwelling crustaceans,molluscs, polychaete worms, and small bony fishes.Usually measuring 45cm(18in) across,it can be identified by its plain coloration and mostly smooth skin, except for a row of tubercles along the midline of the back in the largest individuals.And a dirty great tail with a lethal sting,duhh."
 		},
 		{
+			"id": "5",
 			"name": "Butterfly Ray",
 			"namepor": "",
 			"latin": "Gymnura altavela",
 			"tag": "shore",
-			"imgurl": "http://www.ilkyaz.eu/fishpic/gymnura_altavela.jpg",
+			"imgurl": "/img/fish/gymnura_altavela.jpg",
 			"notes": "A large ray that can measure over 2m (6 ft 7 in) across, it may be distinguished from the Smooth butterfly ray (G.micrura) by the spine at the base of its tail and by a small tentacular structure on the margin of each spiracle. Slow-reproducing and valued for its meat, in recent decades its population has experienced a decline of over 30%, and it has become Critically Endangered in certain parts"
 		},
 		{
+			"id": "6",
 			"name": "Marbled Electic Ray",
 			"namepor": "",
 			"latin": "Torpedo marmorata",
 			"tag": "shore",
-			"imgurl": "http://upload.wikimedia.org/wikipedia/commons/1/10/Torpedo_marmorata2.jpg",
+			"imgurl": "/img/fish/torpedo_marmorata2.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "7",
 			"name": "Madeiran Ray",
 			"namepor": "",
 			"latin": "Raja madeirensis",
 			"tag": "shore",
-			"imgurl": "http://media.kunst-fuer-alle.de/img/37/m/37_6641.jpg",
+			"imgurl": "/img/fish/raja_madeirensis.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "8",
 			"name": "Atlantic Lizardfish",
 			"namepor": "",
 			"latin": "Synodus saurus",
 			"tag": "lrf",
-			"imgurl": "http://www.fishdb.co.uk/img6/Fish1372.jpg",
+			"imgurl": "/img/fish/synodus_saurus.jpg",
 			"notes": "is mainly known to be found in insular waters and on top of sandy or sand-rock bottoms.[1] The diet of the Atlantic lizardfish mainly includes other species of fish, but it is known to also feed occasionally on other animals. The Atlantic lizardfish can be found occupying waters around islands.[3] The Atlantic lizardfish keeps itself hidden and camouflaged by burrowing itself in the sand."
 		},
 		{
+			"id": "9",
 			"name": "Orangemouth Lizardfish",
 			"namepor": "",
 			"latin": "Synodus ulae",
 			"tag": "lrf",
-			"imgurl": "http://diverdave.smugmug.com/Fish/Lizardfish/i-4LhHCtq/0/M/FILIH%200008-M.jpg",
+			"imgurl": "/img/fish/synodus_ulae.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "10",
 			"name": "Black Moray Eel",
 			"namepor": "Moréias",
 			"latin": "Muraena augusti",
 			"tag": "game",
-			"imgurl": "https://c2.staticflickr.com/2/1298/977136620_1ae72d20ee_z.jpg",
+			"imgurl": "/img/fish/muraena_augusti.jpg",
 			"notes": "Morays are carnivorous and feed primarily on smaller fish, octopuses, squid, cuttlefish, and crustaceans. Groupers, barracudas, and sea snakes are among their few predators."
 		},
 		{
+			"id": "11",
 			"name": "Mediterranean Moray Eel",
 			"namepor": "Moréias",
 			"latin": "Muraena helena",
 			"tag": "game",
-			"imgurl": "http://zivazeme.cz/images/murena-obecna02.jpg",
-			"notes": "sometimes also called Roman eel, Muraena helena) is a fish of the moray eel family. It has a long eel-like body and is found in the eastern Atlantic Ocean and Mediterranean Sea. Its bite can be dangerous to humans.See Pharyngeal Jaw"
+			"imgurl": "/img/fish/muraena_helena.jpg",
+			"notes": "sometimes also called Roman eel, Muraena helena) is a fish of the moray eel family. It has a long eel-like body and is found in the eastern Atlantic Ocean and Mediterranean Sea. Its bite can be dangerous to humans.See Pharyngeal Jaw."
 		},
 		{
+			"id": "12",
 			"name": "Brown Moray Eel",
 			"namepor": "Moréias",
 			"latin": "Gymnothorax unicolor",
 			"tag": "game",
-			"imgurl": "http://www.enelmar.es/wp-content/uploads/2011/05/20110508-1613-Las-Eras-Muri%C3%B3n-Gymnothorax-unicolor.jpg",
+			"imgurl": "/img/fish/gymnothorax-unicolor.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "13",
 			"name": "Fangtooth Moray Eel",
 			"namepor": "Moréias",
 			"latin": "Enchelycore anatina",
 			"tag": "shore",
-			"imgurl": "http://upload.wikimedia.org/wikipedia/commons/f/fb/Fangtooth_moray.jpg",
+			"imgurl": "/img/fish/fangtooth_moray.jpg",
 			"notes": "Yegods i hope i never see this on the end of the line.Now i understand why i see all these jaw pliers cuz i dont think id be handling one"
 		},
 		{
+			"id": "14",
 			"name": "Sharpnose Sorcerer Eel",
 			"namepor": "",
 			"latin": "Facciolella oxyrhyncha",
 			"tag": "lrf",
-			"imgurl": "https://farm7.staticflickr.com/6018/5919038095_56c61aa1b4.jpg",
+			"imgurl": "/img/fish/facciolella_oxyrhyncha.jpg",
 			"notes": "It is a marine, subtropical eel which is known from the eastern Atlantic Ocean, including southern Portugal, Angola, and the Ligurian and Tyrrhenian seas. It dwells at a depth range of 30–731 metres; the young are known to inhabit caves, in which the larger specimens are found deeper. Males can reach a maximum standard length of around 60 centimetres"
 		},
 		{
+			"id": "15",
 			"name": "Finless Snake Eel",
 			"namepor": "",
 			"latin": "Apterichthus caecus",
 			"tag": "lrf",
-			"imgurl": "http://1.bp.blogspot.com/-O7JTkH8zxZI/UkvWyZjjE0I/AAAAAAAACPU/dT8bOWl0wjM/s1600/Atlantic+eel.jpg",
+			"imgurl": "/img/fish/apterichthus_caecus.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "16",
 			"name": "Conger Eel",
 			"namepor": "",
 			"latin": "Conger conger",
 			"tag": "game",
-			"imgurl": "http://www.biopix.com/photos/jcs-conger-conger-41436.jpg",
+			"imgurl": "/img/fish/conger-conger.jpg",
 			"notes": "Ah back to familiar beasts from the deep.yes we know all about this arm ripper.Hides in holes as all the eels do, so another mainly nocturnal fish"
 		},
 		{
+			"id": "17",
 			"name": "Golden Balearic Conger Eel",
 			"namepor": "",
 			"latin": "Ariosoma balearicum",
 			"tag": "lrf",
-			"imgurl": "http://www.maestropescador.com/Colaboradores/patzner_robert_a/Ariosoma_balearicum.jpg",
+			"imgurl": "/img/fish/ariosoma_balearicum.jpg",
 			"notes": "Purrrty"
 		},
 		{
+			"id": "18",
 			"name": "Garden Eel",
 			"namepor": "",
 			"latin": "Heteroconger longissimus",
 			"tag": "lrf",
-			"imgurl": "http://www.enelmar.es/wp-content/uploads/2011/01/Anguila-jardinera-Heteroconger-longissimus-Punta-Prieta-02012011.jpg",
+			"imgurl": "/img/fish/heteroconger-longissimus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "19",
 			"name": "Garfish",
 			"namepor": "shore",
 			"latin": "Belone belone",
@@ -161,6 +181,7 @@
 			"notes": "Another migrant topwater species, found as much in the med and mid-Atlantic as the UK shores.Active hunter, swiping that bill-like jaw around baitfish.Good eating but beware the green bones."
 		},
 		{
+			"id": "20",
 			"name": "Larger Forkbeard",
 			"namepor": "",
 			"latin": "Phycis phycis",
@@ -169,102 +190,115 @@
 			"notes": "Pout like.Nocturnal fish, hides under overhangs during the day."
 		},
 		{
+			"id": "21",
 			"name": "Sand Smelt",
 			"namepor": "",
 			"latin": "Atherina presbyter",
 			"tag": "lrf",
-			"imgurl": "http://www.ittiofauna.org/webmuseum/pesciossei/atheriniformes/atherinidae/atherina/atherina_presbyter/images/a_presbyter-500.jpg",
+			"imgurl": "/img/fish/a_presbyter.jpg",
 			"notes": "Baitfish"
 		},
 		{
+			"id": "22",
 			"name": "Trumpetfish",
 			"namepor": "",
 			"latin": "Aulostomus strigosus",
 			"tag": "lrf",
-			"imgurl": "http://www.logbookimmersioni.it/upload_images/resize/large/3/aulostomus_strigosus.jpg",
+			"imgurl": "/img/fish/aulostomus_strigosus.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "23",
 			"name": "Great Pipefish",
 			"namepor": "",
 			"latin": "Syngnathus acus",
 			"tag": "lrf",
-			"imgurl": "https://c1.staticflickr.com/3/2342/2428001616_3c0c1ecb58.jpg",
+			"imgurl": "/img/fish/syngnathus_acus.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "24",
 			"name": "Common Bellowsfish",
 			"namepor": "",
 			"latin": "Macroramphosus scolopax",
 			"tag": "lrf",
-			"imgurl": "https://c2.staticflickr.com/4/3116/3091064738_786093f44a.jpg",
+			"imgurl": "/img/fish/macroramphosus_scolopax.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "25",
 			"name": "Gilt Sardinella",
 			"namepor": "",
 			"latin": "Sardinella aurita",
 			"tag": "lrf",
-			"imgurl": "http://www.ictioterm.es/especies/fotos_principales/L/Sardinella_aurita_L.jpg",
+			"imgurl": "/img/fish/sardinella_aurita.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "26",
 			"name": "Striped Barracuda",
 			"namepor": "",
 			"latin": "Sphyraena viridensis",
 			"tag": "game",
-			"imgurl": "https://c1.staticflickr.com/9/8307/8019208221_867e318bf3.jpg",
+			"imgurl": "/img/fish/sphyraena_viridensis.jpg",
 			"notes": "Bitey bitey.The main topwater predator, schools in large numbers to chase baitfish.Average eating"
 		},
 		{
+			"id": "27",
 			"name": "Boxlip Mullet",
 			"namepor": "Tainhas",
 			"latin": "Oedalechilus labeo",
 			"tag": "shore",
-			"imgurl": "http://www.ittiofauna.org/webmuseum/pesciossei/perciformes/mugilidae/oedalechilus/oedalechiluslabeo/images/oedalechilus_labeo05.jpg",
+			"imgurl": "/img/fish/oedalechilus_labeo.jpg",
 			"notes": "Mud grubbers from the uk with a species twist.Fights as hard as other species and as hard to catch."
 		},
 		{
+			"id": "28",
 			"name": "Comb Grouper",
 			"namepor": "",
 			"latin": "Mycteroperca fusca",
 			"tag": "game",
 			"imgurl": "/img/fish/comb_grouper.jpg",
-			"notes": "Juveniles inhabit turtle grass beds, mangrove areas, and shallow waters among soft corals and coral reefs. Adults are found on rocky bottoms with high relief. Probably feeds on plankton (no information is available on the food of this species). The max weight of 4 kg given in Ref. 5222 appears too low. The species is a popular game fish in southern Brazil for both spear fishermen and rod-and-reel anglers. Fish of 4-7 kg are common"
+			"notes": "Juveniles inhabit turtle grass beds and shallow waters among soft corals. Adults are found on rocky bottoms with high relief. Probably feeds on plankton(no information is available on the food of this species)."
 		},
 		{
+			"id": "29",
 			"name": "Dusky Grouper",
 			"namepor": "",
 			"latin": "Epinephelus marginatus",
 			"tag": "game",
 			"imgurl": "/img/fish/epinephelus_marginatus.jpg",
-			"notes": "Adults prefer rocky bottoms, and are solitary and territorial. Juveniles are found closer to shore, in rocky tidal pools etc. Mainly feed on crabs and octopi; larger individuals feed on a greater proportion of fishes, the majority of which are reef-associated species. Readily caught by anglers as a food source"
+			"notes": "Adults prefer rocky bottoms, and are solitary and territorial. Juveniles are found closer to shore, in rocky tidal pools etc. Mainly feed on crabs and octopi; larger individuals feed on a greater proportion of fishes. Readily caught as a food source."
 		},
 		{
+			"id": "30",
 			"name": "Painted Comber",
 			"namepor": "",
 			"latin": "Serranus scriba",
 			"tag": "lrf",
-			"imgurl": "http://static.panoramio.com/photos/large/18844815.jpg",
+			"imgurl": "/img/fish/serranus_scriba.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "31",
 			"name": "Blacktail Comber",
 			"namepor": "",
 			"latin": "Serranus atricauda",
 			"tag": "lrf",
-			"imgurl": "https://c2.staticflickr.com/2/1256/851424372_4c85976284.jpg",
+			"imgurl": "/img/fish/serranus_atricauda.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "32",
 			"name": "Brown Comber",
 			"namepor": "",
 			"latin": "Serranus hepatus",
-			"tag": "Lizardfish",
-			"imgurl": "http://img837.imageshack.us/img837/5500/fzkl.jpg",
+			"tag": "lrf",
+			"imgurl": "/img/fish/serranus_hepatus.jpg",
 			"notes": "Notes"
 		},
 		{
+			"id": "33",
 			"name": "Swallowtail Seapearch",
 			"namepor": "",
 			"latin": "Anthias anthias",
@@ -273,38 +307,43 @@
 			"notes": "Found the picture for this in the aquarium section.Says it all really"
 		},
 		{
+			"id": "34",
 			"name": "Cardinalfish",
 			"namepor": "",
 			"latin": "Apogon imberbis",
 			"tag": "lrf",
-			"imgurl": "http://3.bp.blogspot.com/-86K0-r5ugu0/Tx8HFifT_PI/AAAAAAAAANM/tC8MJKgfcs4/s1600/IMG_7236.jpg",
-			"notes": "See Swalowtail Seaperch"
+			"imgurl": "/img/fish/apogon_imberbis.jpg",
+			"notes": "See Swallowtail Seaperch"
 		},
 		{
+			"id": "35",
 			"name": "Glasseye",
 			"namepor": "",
 			"latin": "Heteropriacanthus cruentatus",
 			"tag": "lrf",
 			"imgurl": "/img/fish/glasseye.jpg",
-			"notes": "It has very larges eyes which it uses to hunt in the cover of darkness. This fish has a color changing body that becomes brighter as it grows older. When this species of Squirrelfish is young its body is covered by brown and red patches. As the fish ages they become a striking solid bright red."
+			"notes": "Larges eyes which it uses to hunt in the cover of darkness and a color changing body that becomes brighter as it grows older. When young its body is covered by brown and red patches, becoming a striking solid bright red as they mature."
 		},
 		{
+			"id": "36",
 			"name": "Two-banded Bream",
 			"namepor": "",
 			"latin": "Diplodus vulgaris",
 			"tag": "shore",
-			"imgurl": "http://imagebank.madeirabirds.com/two_banded_bream.jpg",
+			"imgurl": "/img/fish/diplodus_vulgaris.jpg",
 			"notes": "Yum"
 		},
 		{
+			"id": "37",
 			"name": "Sargo",
 			"namepor": "",
 			"latin": "Diplodus sargus",
 			"tag": "shore",
-			"imgurl": "http://img585.imageshack.us/img585/6774/26h0.jpg",
+			"imgurl": "/img/fish/diplodus_sargus.jpg",
 			"notes": "More yum"
 		},
 		{
+			"id": "38",
 			"name": "Zebra Bream",
 			"namepor": "",
 			"latin": "Diplodus cervinus",
@@ -313,14 +352,16 @@
 			"notes": "Notes"
 		},
 		{
+			"id": "39",
 			"name": "Black Bream",
 			"namepor": "",
 			"latin": "Spondyliosoma cantharus",
 			"tag": "shore",
-			"imgurl": "http://www.marlin.ac.uk/imgs/o_spocan.jpg",
+			"imgurl": "/img/fish/spondyliosoma_cantharus.jpg",
 			"notes": "Yummy yum"
 		},
 		{
+			"id": "40",
 			"name": "Salema",
 			"namepor": "",
 			"latin": "Sarpa salpa",
@@ -329,6 +370,7 @@
 			"notes": "A species of sea bream, recognisable by the golden stripes that run down the length of its body, and which can cause hallucinations when eaten..Yes you read that right.Sarpa salpa was reportedly consumed as a recreational drug during the time of the Roman Empire"
 		},
 		{
+			"id": "41",
 			"name": "Bogue",
 			"namepor": "",
 			"latin": "Boops boops",
@@ -337,38 +379,43 @@
 			"notes": "Award for the strangest name(and latin name too) goes to.Average food fish"
 		},
 		{
+			"id": "42",
 			"name": "Axillary Bream",
 			"namepor": "",
 			"latin": "Pagellus acarne",
 			"tag": "shore",
-			"imgurl": "http://upload.wikimedia.org/wikipedia/commons/8/8e/Pagellus_acarne_04-08-04.jpg",
+			"imgurl": "/img/fish/pagellus_acarne.jpg",
 			"notes": ""
 		},
 		{
+			"id": "43",
 			"name": "Red Porgy",
 			"namepor": "",
 			"latin": "Pagrus pagrus",
 			"tag": "shore",
-			"imgurl": "http://upload.wikimedia.org/wikipedia/commons/0/06/Pagrus_pagrus.jpg",
+			"imgurl": "/img/fish/pagrus_pagrus.jpg",
 			"notes": "Summertime, and the fishing is easy.....ok ok bad puns aside.One of the Red Seabreams, popular on asian dinner tables.Small growing fish, up to 6lbs with small bones."
 		},
 		{
+			"id": "44",
 			"name": "Saddled Bream",
 			"namepor": "",
 			"latin": "Oblada melanura",
 			"tag": "shore",
-			"imgurl": "http://www.tokaiki.net/taxa/files/5813/3200/4067/Oblada_melanura_01.jpg",
+			"imgurl": "/img/fish/oblada_melanura.jpg",
 			"notes": ""
 		},
 		{
+			"id": "45",
 			"name": "Pandora",
 			"namepor": "",
 			"latin": "Pagellus erythrinus",
 			"tag": "shore",
-			"imgurl": "http://www.gipp.tn/sites/default/files/images/pageot%20commun%20Pagellus%20erythrinus.JPG",
+			"imgurl": "/img/fish/pagellus_erythrinus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "46",
 			"name": "Pink Dentex",
 			"namepor": "",
 			"latin": "Dentex gibbosus",
@@ -377,6 +424,7 @@
 			"notes": "Found usually in small schools over rocky ground, more often in deeper water. A predatory species on fish and cephalapods.Predominantly bluish silver with paler sides and small blue spots. Fins pink."
 		},
 		{
+			"id": "47",
 			"name": "Bermuda sea chub",
 			"namepor": "",
 			"latin": "Kyphosus sectatrix",
@@ -385,6 +433,7 @@
 			"notes": ""
 		},
 		{
+			"id": "48",
 			"name": "Striped Red Mullet",
 			"namepor": "Tainhas",
 			"latin": "Mullus surmuletus",
@@ -393,6 +442,7 @@
 			"notes": "Also a uk resident thats found all over the med and atlantic"
 		},
 		{
+			"id": "49",
 			"name": "Bastard Grunt",
 			"namepor": "",
 			"latin": "Pomadasis incisus",
@@ -401,7 +451,8 @@
 			"notes": "hur hur no family slurs please"
 		},
 		{
-			"name": "African Stripped Grunt",
+			"id": "50",
+			"name": "African Striped Grunt",
 			"namepor": "",
 			"latin": "Parapristipoma octolineatum",
 			"tag": "shore",
@@ -409,54 +460,61 @@
 			"notes": "Its common name comes from its stripes and from its habit of grunting by grinding its pharyngeal teeth. The swim bladder, acting as a resonator, amplifies this sound.Valued food fish."
 		},
 		{
+			"id": "51",
 			"name": "Bluefish",
 			"namepor": "",
-			"latin": "Pomatomus saltator",
+			"latin": "Pomatomus saltatrix",
 			"tag": "game",
-			"imgurl": "http://1.bp.blogspot.com/-It7aKCT6rOk/Uxs0FSnrhhI/AAAAAAAAWXA/qJEDcVt6tZg/s1600/Nebot+Santos++BLUEFISH+(Pomatomus+saltatrix)+moutak+ny+new+yourk+boston+long+island++world+record+biggest+fish+ever+caught+big+huge+fishes+records+largest+monster+fishing+giant+size+images+pictures+IGFA+lb+pound.jpg",
+			"imgurl": "/img/fish/pomatomus saltatrix.jpg",
 			"notes": "If this was in a river id see Jeremy Wade leaping on a plane to Funchal.Fearsome fish, hard fighting ambush predator that will think nothing of having your fingers for dessert after you've landed it."
 		},
 		{
+			"id": "52",
 			"name": "Amberjack",
 			"namepor": "Charuteiro",
 			"latin": "Seriola dumerili",
 			"tag": "game",
-			"imgurl": "http://burdigalaproject.files.wordpress.com/2008/10/040.jpg",
+			"imgurl": "/img/fish/amberjack.jpg",
 			"notes": "Jack family, so a hard fighting schooling predator,Pretty too"
 		},
 		{
+			"id": "53",
 			"name": "Almaco Jack",
 			"namepor": "",
 			"latin": "Seriola rivoliana",
 			"tag": "game",
-			"imgurl": "http://www.fishesofaustralia.net.au/Images/Image/SeriolaRivolianaPhilippeGuillaume.jpg",
+			"imgurl": "/img/fish/seriola.jpg",
 			"notes": "A game fish of the family Carangidae; they are in the same family as yellowtail and amberjack.They feed, both day and night, on other smaller fish such as baitfish and small squid. The flesh is thick and dense like tuna and can easily pass for white albacore if prepared as sushi.Good to know.."
 		},
 		{
+			"id": "54",
 			"name": "Blue Runner",
 			"namepor": "",
 			"latin": "Caranx crysos",
 			"tag": "shore",
-			"imgurl": "http://www.bossen.ch/frank/v4/images/db/standard/carcry0.jpg",
+			"imgurl": "/img/fish/blurun.jpg",
 			"notes": "Also known as the bluestripe jack, Egyptian scad, Hardtail jack and hardnose, the blue runner is a common species of Carangidae.Average eating, often used as baitfish for larger predators."
 		},
 		{
+			"id": "55",
 			"name": "Guelly Jack",
 			"namepor": "",
 			"latin": "Pseudocaranx dentex",
 			"tag": "game",
-			"imgurl": "http://imagebank.madeirabirds.com/guelly_jack.jpg",
+			"imgurl": "/img/fish/guelly_jack.jpg",
 			"notes": "Or White trevally, It has a deep body, and a greenish colour with metallic overtones and a dark spot above the gills. The fins are yellow. Trevally are strong fighters and the flesh is good to eat if a little dry. It is often used as cut baits. Maximum size is about 120 cm."
 		},
 		{
+			"id": "56",
 			"name": "Derbio",
 			"namepor": "",
 			"latin": "Trachinotus ovatus",
 			"tag": "shore",
-			"imgurl": "http://images.marinespecies.org/resized/64300_trachinotus-ovatus.jpg",
+			"imgurl": "/img/fish/trachinotus-ovatus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "57",
 			"name": "Horse Mackerel",
 			"namepor": "",
 			"latin": "Trachurus picturatus",
@@ -465,102 +523,115 @@
 			"notes": ""
 		},
 		{
+			"id": "58",
 			"name": "Bluefin Damselfish",
 			"namepor": "",
 			"latin": "Abudefduf luridus",
 			"tag": "lrf",
-			"imgurl": "https://c2.staticflickr.com/2/1232/5155875545_941039705f.jpg",
+			"imgurl": "/img/fish/abudefduf_luridus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "59",
 			"name": "Red Hogfish",
 			"namepor": "",
 			"latin": "Pseudolepidaplois scrofa",
 			"tag": "lrf",
-			"imgurl": "http://imagebank.madeirabirds.com/red_hogfish.jpg",
+			"imgurl": "/img/fish/red_hogfish.jpg",
 			"notes": ""
 		},
 		{
+			"id": "60",
 			"name": "Rainbow Wrasse",
 			"namepor": "",
 			"latin": "Coris julis",
 			"tag": "lrf",
-			"imgurl": "http://upload.wikimedia.org/wikipedia/commons/6/62/Coris_julis_24-05-07_male.jpg",
+			"imgurl": "/img/fish/coris_julis.jpg",
 			"notes": ""
 		},
 		{
+			"id": "61",
 			"name": "Turkish Wrasse",
 			"namepor": "",
 			"latin": "Thalassoma pavo",
 			"tag": "lrf",
-			"imgurl": "http://imagebank.madeirabirds.com/turkish_wrasse.jpg",
+			"imgurl": "/img/fish/turkish_wrasse.jpg",
 			"notes": ""
 		},
 		{
+			"id": "62",
 			"name": "Axillary Wrasse",
 			"namepor": "",
 			"latin": "Symphodus mediterraneus",
 			"tag": "lrf",
-			"imgurl": "http://www.cibsub.com/rcs_gene/Symphodus_mediterraneus02_1.jpg",
+			"imgurl": "/img/fish/symphodus_mediterraneus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "63",
 			"name": "Atlantic Wrasse",
 			"namepor": "",
 			"latin": "Centrolabrus trutta",
 			"tag": "lrf",
-			"imgurl": "http://4.bp.blogspot.com/-ufzMgInE1ZM/UU34nUoLL5I/AAAAAAAAAsk/srbZn_KNgPE/s1600/2-Romero-hembra-(Centrolabrus-trutta).jpg",
+			"imgurl": "/img/fish/centrolabrus-trutta.jpg",
 			"notes": ""
 		},
 		{
+			"id": "64",
 			"name": "Cleaver Wrasse",
 			"namepor": "",
 			"latin": "Xyrichthys novacula",
 			"tag": "lrf",
-			"imgurl": "http://www.aiam.info/public/com_schede_new/fotoprincipalepercategorie/49/191.jpg",
+			"imgurl": "/img/fish/xyrichthys_novacula.jpg",
 			"notes": ""
 		},
 		{
+			"id": "65",
 			"name": "Parrotfish",
 			"namepor": "",
 			"latin": "Sparisoma cretense",
 			"tag": "shore",
-			"imgurl": "http://imagebank.madeirabirds.com/parrotfish.jpg",
+			"imgurl": "/img/fish/parrotfish.jpg",
 			"notes": ""
 		},
 		{
+			"id": "66",
 			"name": "Streaked Weever",
 			"namepor": "",
 			"latin": "Trachinus radiatus",
 			"tag": "lrf",
-			"imgurl": "http://1.bp.blogspot.com/-Yz9AP33dU2M/Uf_wa-iQjUI/AAAAAAABYD8/FjPnc0QN_EY/s1600/Trrad_u2.jpg",
+			"imgurl": "/img/fish/trachinus_radiatus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "67",
 			"name": "Stargazer",
 			"namepor": "",
 			"latin": "Uranoscopus scaber",
 			"tag": "lrf",
-			"imgurl": "http://www.naturamediterraneo.com/Public/data7/rpillon/8_Pesce%20prete_Uranoscopus%20scaber_Koufonissi08_2540_.JPG_20081051694_8_Pesce%20prete_Uranoscopus%20scaber_Koufonissi08_2540_.jpg",
+			"imgurl": "/img/fish/uranoscopus_scaber.jpg",
 			"notes": ""
 		},
 		{
-			"name": "Common Remora",
+			"id": "68",
+			"name": "Spearfish Remora",
 			"namepor": "",
-			"latin": "Uranoscopus scaber",
+			"latin": "Remora brachyptera",
 			"tag": "game",
-			"imgurl": "http://imagebank.madeirabirds.com/common_remora.jpg",
+			"imgurl": "/img/fish/common_remora.jpg",
 			"notes": ""
 		},
 		{
+			"id": "69",
 			"name": "Atlantic Bonito",
 			"namepor": "",
 			"latin": "Sarda sarda",
 			"tag": "game",
-			"imgurl": "http://www.croatia-fishing-charter.com/images/palamida-1.jpg",
+			"imgurl": "/img/fish/sarda_sarda.jpg",
 			"notes": ""
 		},
 		{
+			"id": "70",
 			"name": "Black Scabbardfish",
 			"namepor": "Peixe-espada",
 			"latin": "Aphanopus carbo",
@@ -569,38 +640,43 @@
 			"notes": "The cutlassfishes are about 40 species of predatory fish in the family Trichiuridae (order Perciformes)"
 		},
 		{
+			"id": "71",
 			"name": "Wahoo",
 			"namepor": "",
 			"latin": "Acanthocybium solandri",
 			"tag": "game",
-			"imgurl": "http://m5.i.pbase.com/g1/17/893317/2/108068575.zODk9HKT.jpg",
+			"imgurl": "/img/fish/acanthocybium_solandri.jpg",
 			"notes": ""
 		},
 		{
+			"id": "72",
 			"name": "Maui-Maui, Dorado",
 			"namepor": "",
 			"latin": "Coryphaena hippurus",
 			"tag": "game",
-			"imgurl": "http://images.fineartamerica.com/images-medium-large/a-dolphin-fish-coryphaena-hippurus-brian-j-skerry.jpg",
+			"imgurl": "/img/fish/coryphaena-hippurus.jpg",
 			"notes": "http://en.wikipedia.org/wiki/Mahi-mahi(dorado)"
 		},
 		{
+			"id": "73",
 			"name": "Yellow Triplefin",
 			"namepor": "",
 			"latin": "Tripterygion delaisi",
 			"tag": "lrf",
-			"imgurl": "http://r11.imgfast.net/users/1114/38/15/50/album/rabosa10.jpg",
+			"imgurl": "/img/fish/tripterygion_delaisi.jpg",
 			"notes": "When threatened it freezes rather than swimming away, relying on its cryptic color patterning to disguise it against the substrate.This fish has bright red fluorescent irises in its eyes which it can regulate quickly, making them brighter or duller"
 		},
 		{
+			"id": "74",
 			"name": "Red Blenny",
 			"namepor": "",
 			"latin": "Parablennius ruber",
 			"tag": "lrf",
-			"imgurl": "http://www.dimb.org/wp-content/uploads/2010/11/blennie1.jpg",
+			"imgurl": "/img/fish/parablennius_ruber.jpg",
 			"notes": ""
 		},
 		{
+			"id": "75",
 			"name": "Grey Blenny",
 			"namepor": "",
 			"latin": "Lipophrys trigloides",
@@ -609,6 +685,7 @@
 			"notes": ""
 		},
 		{
+			"id": "76",
 			"name": "Brown Blenny",
 			"namepor": "",
 			"latin": "Parablennius incognitus",
@@ -617,86 +694,97 @@
 			"notes": ""
 		},
 		{
+			"id": "77",
 			"name": "Redlip Blenny",
 			"namepor": "",
 			"latin": "Ophioblennius atlanticus",
 			"tag": "lrf",
-			"imgurl": "http://imagebank.madeirabirds.com/redlip_blenny.jpg",
+			"imgurl": "/img/fish/ophioblennius_atlanticus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "78",
 			"name": "Leopard Spotted Goby",
 			"namepor": "",
 			"latin": "Thorogobius epphipiatus",
 			"tag": "lrf",
-			"imgurl": "http://imagebank.madeirabirds.com/leopard_spotted_goby.jpg",
+			"imgurl": "/img/fish/thorogobius_epphipiatus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "79",
 			"name": "Rock Goby",
 			"namepor": "",
 			"latin": "Gobius paganellus",
 			"tag": "lrf",
-			"imgurl": "http://www.aphotomarine.com/images/rockpool_fish/fish_rockpool_rock_goby_gobius_paganellus_13-08-10_1.jpg",
+			"imgurl": "/img/fish/gobius_paganellus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "80",
 			"name": "Streaked Gurnard",
 			"namepor": "",
 			"latin": "Trigloporus lastoviza",
 			"tag": "shore",
-			"imgurl": "http://skaphandrus.com/thumbnails/medium/fotografias/77.jpg.jpg",
+			"imgurl": "/img/fish/trigloporus_lastoviza.jpg",
 			"notes": ""
 		},
 		{
+			"id": "81",
 			"name": "Red Scorpionfish",
 			"namepor": "",
 			"latin": "Scorpaena scrofa",
 			"tag": "lrf",
-			"imgurl": "http://www.maestropescador.com/Colaboradores/patzner_robert_a/Scorpaena_scrofa.jpg",
+			"imgurl": "/img/fish/scorpaena_scrofa.jpg",
 			"notes": ""
 		},
 		{
+			"id": "82",
 			"name": "Madeira Scorpionfish",
 			"namepor": "",
 			"latin": "Scorpaena maderensis",
 			"tag": "lrf",
-			"imgurl": "http://imagebank.madeirabirds.com/madeira_scorpionfish.jpg",
+			"imgurl": "/img/fish/scorpaena_maderensis.jpg",
 			"notes": ""
 		},
 		{
+			"id": "83",
 			"name": "Wide-eyed Flounder",
 			"namepor": "",
 			"latin": "Bothus podas",
 			"tag": "shore",
-			"imgurl": "http://static.panoramio.com/photos/large/53128395.jpg",
+			"imgurl": "/img/fish/bothus_podas.jpg",
 			"notes": ""
 		},
 		{
+			"id": "84",
 			"name": "Eyed Sole",
 			"namepor": "",
 			"latin": "Microchirus ocellatus",
 			"tag": "shore",
-			"imgurl": "http://www.naturamediterraneo.com/Public/data7/stefano%20guerrieri/7%20-%20%20Microchirus%20ocellatus%2004-04-09%20DSCF8195.jpg_200942318452_7%20-%20%20Microchirus%20ocellatus%2004-04-09%20DSCF8195.jpg",
+			"imgurl": "/img/fish/microchirus_ocellatus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "85",
 			"name": "Spotted Tonguesole",
 			"namepor": "",
 			"latin": "Symphurus insularis",
 			"tag": "lrf",
-			"imgurl": "https://www.vetofish.com/sites/vetofish.com/files/styles/large/public/imagecache/external/317cbdfdb3b5420dfb6b478d52de9df5.jpg",
+			"imgurl": "/img/fish/symphurus_insularis.jpg",
 			"notes": ""
 		},
 		{
+			"id": "86",
 			"name": "Grey Triggerfish",
 			"namepor": "peixe-porco",
 			"latin": "Balistes carolinensis",
 			"tag": "shore",
-			"imgurl": "http://www.barresfotonatura.com/barres/media/photologue/photos/Balistes%20carolinensis%201.jpg",
+			"imgurl": "/img/fish/balistes_carolinensis.jpg",
 			"notes": ""
 		},
 		{
+			"id": "87",
 			"name": "Brown Filefish",
 			"namepor": "",
 			"latin": "Stephanolepis hispidus",
@@ -705,43 +793,48 @@
 			"notes": ""
 		},
 		{
+			"id": "88",
 			"name": "Sharpnose Pufferfish",
 			"namepor": "",
 			"latin": "Canthigaster capistrata",
 			"tag": "lrf",
-			"imgurl": "http://imagebank.madeirabirds.com/sharpnose_puffer.jpg",
+			"imgurl": "/img/fish/canthigaster_capistrata.jpg",
 			"notes": ""
 		},
 		{
+			"id": "89",
 			"name": "Brown Pufferfish",
 			"namepor": "",
 			"latin": "Sphoeroides marmoratus",
 			"tag": "lrf",
-			"imgurl": "http://www.pufferforum.net/typo3temp/pics/634890e81e.jpg",
+			"imgurl": "/img/fish/sphoeroides_marmoratus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "90",
 			"name": "Purple Clingfish",
 			"namepor": "",
 			"latin": "Lepadogaster candollei",
 			"tag": "lrf",
-			"imgurl": "http://2.bp.blogspot.com/_JXqh7_5xnkI/TBs5QMKMgII/AAAAAAAACiY/1QQhJVm3giI/s1600/IMG_6726lepadogaster.jpg",
+			"imgurl": "/img/fish/lepadogaster.jpg",
 			"notes": ""
 		},
 		{
+			"id": "91",
 			"name": "Pearlfish",
 			"namepor": "",
 			"latin": "Carapus acus",
 			"tag": "lrf",
-			"imgurl": "http://upload.wikimedia.org/wikipedia/commons/4/45/Carapus_acus.jpg",
+			"imgurl": "/img/fish/carapus_acus.jpg",
 			"notes": ""
 		},
 		{
+			"id": "92",
 			"name": "Frogfish",
 			"namepor": "",
 			"latin": "Antennarius nummifer",
 			"tag": "lrf",
-			"imgurl": "http://www.diverosa.com/Lembeh%202008/IL3-123%20Spotfin%20frogfish,%20Antennatus%20nummifer.jpg",
+			"imgurl": "/img/fish/antennatus_nummifer.jpg",
 			"notes": ""
 		}
 	]

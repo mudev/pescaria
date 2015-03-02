@@ -1,23 +1,36 @@
-
-		<!-- Header -->
-		        <nav class="top-bar" data-topbar>
-		            <ul class="title-area">
-		                <li class="name"><h1><a href="#">{{title}}</a></h1></li>
-		                <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-		            </ul>
-		            <section class="top-bar-section">
-		                <ul class="left">
-		                    <li><a href="index.html">Home</a></li>
-		                    <li><a href="places.html">The Places</a></li>
-		                    <li><a href="fishes.html">The Fishes</a></li>
-		                    <li><a href="tackle.html">The Tackle</a></li>
-		                    <li><a href="tacklemaking.html">Tackle Making</a></li>
-		                </ul>
-		                <ul class="right">
-		                    <li class="search"><form><input type="search"></form></li>
-		                    <li class="has-button"><a class="small button" href="#">Search</a></li>
-		                </ul>
-		            </section>
-		        </nav>
+<!-- Header -->
+<div class="fixed">
+	<nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li {{#is title "Home"}} class="active"{{/is}}><h1><a href="index.html">{{title}}</a></h1></li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+        </ul>
+        <section class="top-bar-section right">
+            <ul class="left">
+                <li class="has-dropdown">
+                    <a href="#"><i class="fa fa-eye"></i> See the:</a>
+                    <ul class="dropdown fancy">
+                        <li {{#is title "Places"}} class="active"{{/is}}><a href="places.html">Places</a></li>
+                        <li {{#is title "Fishes"}} class="active"{{/is}}><a href="fishes.html">Fishes</a></li>
+                        <li {{#is title "Tackle"}} class="active"{{/is}}><a href="tackle.html">Tackle</a></li>
+                        <li {{#is title "Charters"}} class="active"{{/is}}><a href="charters.html">Charters</a></li>
+                        <li {{#is title "Blog"}} class="active"{{/is}}><a href="blog.html">Blog</a></li>
+                        <hr>
+                        <li {{#is title "TackleMaking"}} class="active"{{/is}}><a href="tacklemaking.html">Lures</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="right">
+                <li class="search">
+                    <form name="search">
+                        <input type="text" id="tipue_drop_input"autocomplete="off" required>
+                    </form>
+                </li>
+                <!-- <li class="has-button"><a class="small button" href="#">Search</a></li> -->
+                <div id="tipue_drop_content"></div>
+            </ul>
+        </section>
+    </nav>
+</div>
 
 		<!-- /Header -->

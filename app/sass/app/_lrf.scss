@@ -1,0 +1,37 @@
+//LRF  & Fly page
+.lxholder {
+	position: relative;
+
+	.plx-background {
+		background-color: #0078A0;
+		height: 620px;
+		background-position: top center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+		background-size: cover;
+		position: fixed;
+		width: 100%;
+	}
+	.lrfhero {
+		background-image: url(../img/asset/subporto.jpg);
+	}
+	.flyhero {
+		background-image: url(../img/asset/ribeirofrio9.jpg);
+	}
+	.intro-text {
+		font-size: 50px;
+		color: #FFF;
+		text-align: center;
+		margin-top: 15%;
+	}
+	.plx-content {
+		max-width: 100%;
+		position: relative;
+		top: 500px;
+		padding: 50px;
+		font-size: 20px;
+		background-color: #fff;
+	}
+}

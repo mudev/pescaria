@@ -1,0 +1,29 @@
+//Charters Page
+.orbit-container {
+	 max-height: 500px;
+}
+.charter {
+	height: 650px;
+	background-color: transparentize($themeblue, 0.4);
+	figure {
+		img {
+			height: 200px;
+			border: 1px solid $sitewhite;
+		}
+	}
+	figcaption {
+		position: relative;
+		h3 {
+
+		}
+	}
+	ul {
+		list-style-type: none;
+	}
+	li {
+
+		span {
+			font-weight: bold;
+		}
+	}
+}

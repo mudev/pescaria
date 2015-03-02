@@ -1,0 +1,131 @@
+// Fishes Page
+.species {
+
+	img {
+		width: 310px;
+		height: 200px;
+	}
+	p {
+		// margin: 5%;
+	}
+	.game{
+		// border: 1px solid blue;
+	}
+	.shore {
+		// border: 1px solid cyan;
+	}
+	.lrf {
+		// border: 1px solid green;
+	}
+	.item {
+		// display: inline-block;
+		padding: 0.1em;
+		background: $themeblue;
+		margin: 0.5em;
+		border: 1px solid $themered;
+		a{
+			width: 100%;
+			display: block;
+		}
+	}
+	h3 {
+		font-size: 1.4em;
+		margin:0 0 0 0.5rem;
+		color: $sitewhite;
+	}
+	pre {
+		font-size: 0.75rem;
+		color: $yellowz;
+		margin:0 0 0.5rem 0.5rem;
+	}
+}
+#drop1 {
+	display: none;
+}
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+figure.effect-chico {
+	overflow: hidden;
+	img {
+		// width: 310px;
+		// height: 200px;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: scale(1.12);
+		transform: scale(1.12);
+
+	}
+	h3 {
+		padding: 20% 0 20px 0;
+	}
+	p {
+		margin: 0 auto;
+		max-width: 260px;
+		padding-top: 2em;
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
+		color: $sitewhite;
+	}
+	figcaption {
+		margin: 3em 0;
+		padding:0;
+		&:before {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			bottom: 60px;
+			left: 15px;
+			border: 1px solid #fff;
+			content: '';
+			-webkit-transform: scale(1.1);
+			transform: scale(1.1);
+		}
+		a{
+			color: $yellowz;
+			position: absolute;
+			left: 35%;
+			top: 65%;
+		}
+	}
+}
+figure.effect-chico:hover img {
+	opacity: 0.25;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-chico figcaption::before,
+figure.effect-chico p {
+	font-size: 0.8em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-chico:hover figcaption::before,
+figure.effect-chico:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+//Filters
+.button-group{
+	z-index: 100;
+	position: fixed;
+	bottom:0;
+	right: 15%;
+	height: 4rem;
+	padding: 10px;
+	background: $yellowz;
+	h5 {
+		font-style: italic;
+		font-weight: 900;
+		margin: 1rem;
+		font-size: 0.75em;
+	}
+	i {
+		font-size: 1em;
+	}
+}

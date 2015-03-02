@@ -1,0 +1,319 @@
+ .top-bar-section {
+//     // #{$default-float}: 0;
+//     position: relative;
+//     width: auto;
+//     // @include single-transition($default-float, $topbar-transition-speed);
+
+    ul {
+//       width: 100%;
+//       height: auto;
+//       display: block;
+       	background: $yellowz;
+    	font-size: 20px;
+//       margin: 0;
+    }
+
+//     .divider,
+//     [role="separator"] {
+//       // border-bottom: $topbar-divider-border-bottom;
+//       // border-top: $topbar-divider-border-top;
+//       clear: both;
+//       height: 1px;
+//       width: 100%;
+//     }
+
+//     ul li {
+//       & > a {
+//         display: block;
+//         width: 100%;
+//         color: $topbar-link-color;
+//         padding: 12px 0 12px 0;
+//         // padding-#{$default-float}: $topbar-height / 3;
+//         font-size: $topbar-link-font-size;
+//         font-weight: $topbar-link-weight;
+//         // background: $topbar-dropdown-bg;
+
+//         &.hover {
+//           background: $topbar-link-bg-hover;
+//           color: $topbar-link-color-hover;
+//         }
+
+
+//         &.button {
+//           // background: $primary-color;
+//           font-size: $topbar-link-font-size;
+//           &.hover {
+//             // background: darken($primary-color, 10%);
+//           }
+//         }
+//         &.button.secondary {
+//           // background: $secondary-color;
+//           &.hover {
+//             // background: darken($secondary-color, 10%);
+//           }
+//         }
+//         &.button.success {
+//           // background: $success-color;
+//           &.hover {
+//             // background: darken($success-color, 10%);
+//           }
+//         }
+//         &.button.alert {
+//           // background: $alert-color;
+//           &.hover {
+//             // background: darken($alert-color, 10%);
+//           }
+//         }
+
+//       }
+
+//       // Apply the active link color when it has that class
+//       &.active > a {
+//         background: $topbar-link-bg-active;
+//         color: $topbar-link-color-active;
+//       }
+//     }
+
+//     // Add some extra padding for list items contains buttons
+//     .has-form { padding: $topbar-height / 3; }
+
+//     // Styling for list items that have a dropdown within them.
+//     .has-dropdown {
+//       position: relative;
+
+//       & > a {
+//         &:after {
+//           @include css-triangle($topbar-dropdown-toggle-size, rgba($topbar-dropdown-toggle-color, $topbar-dropdown-toggle-alpha), $default-float);
+//           margin-#{$opposite-direction}: $topbar-height / 3;
+//           margin-top: -($topbar-dropdown-toggle-size / 2) - 2;
+//           position: absolute;
+//           top: 50%;
+//           // #{$opposite-direction}: 0;
+//         }
+//       }
+
+//       &.moved { position: static;
+//         & > .dropdown {
+//           visibility: visible;
+//         }
+//       }
+//     }
+
+//     // Styling elements inside of dropdowns
+     .dropdown {
+//       position: absolute;
+//        #{$default-float}: 100%;
+//       top: 0;
+//       visibility: hidden;
+//       z-index: 99;
+
+    	li {
+//         width: 100%;
+//         height: auto;
+          &:hover {
+            // border: 1px dashed $siteblack;
+          }
+
+			a {
+        position: relative;
+	        	font-weight: lighter;
+	        	padding: 15px $topbar-height / 3;
+	        	text-align: center;
+	        	color: $siteblack;
+       		}
+
+//         &.title h5 { margin-bottom: 0;
+//           a {
+//             color: $topbar-link-color;
+//             line-height: $topbar-height / 2;
+//             display: block;
+//           }
+//         }
+      }
+
+//       label {
+//         padding: 8px $topbar-height / 3 2px;
+//         margin-bottom: 0;
+//         text-transform: $topbar-dropdown-label-text-transform;
+//         color: $topbar-dropdown-label-color;
+//         font-weight: $topbar-dropdown-label-font-weight;
+//         font-size: $topbar-dropdown-label-font-size;
+//       }
+    }
+ }
+ .top-bar {
+ 	background: url(../img/asset/madeiraflag.png)no-repeat center left $yellowz;
+  .name {
+
+    h1 {
+      text-shadow: 1px 1px 1px $tan;
+    }
+  }
+ }
+nav {
+	@include shad;
+	h4{
+		font-size: 1.125em;
+		display: inline;
+		float: left;
+	}
+	.search {
+		margin-top: 9%;
+		position: relative;
+		padding: 0 0.5em;
+	}
+}
+.fancy a {
+  padding: 10px;
+  color: #aaa;
+  font-weight: 700;
+  text-shadow: none;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+  &:before {
+    top: 10px;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background: #333;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, width 0.1s, left 0.1s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s, width 0.1s, left 0.1s;
+  }
+  &:after {
+    bottom: 10px;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background: #333;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, width 0.1s, left 0.1s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s, width 0.1s, left 0.1s;
+  }
+  &:hover, &:focus{
+    color: #333;
+
+  }
+  &:hover::before,
+  &:focus::before,
+  &:hover::after,
+  &:focus::after{
+    opacity: 1;
+    border:1px solid $themeblue;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  &:active::before,
+  &:active::after{
+    left: 0;
+    width: 100%;
+  }
+}
+/*
+Tipue drop 4.0
+Copyright (c) 2014 Tipue
+Tipue drop is released under the MIT License
+http://www.tipue.com/drop
+*/
+#tipue_drop_input {
+    font: 13px/1.6 'lato', sans-serif;
+	color: #333;
+	padding: 12px 12px 12px 40px;
+	width: 170px;
+	border: 1px solid #e2e2e2;
+	border-radius: 0;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+     box-shadow: none;
+	outline: 0;
+	margin: 0;
+	background: url('../../img/asset/search.png') no-repeat 6px 6px;
+	&:focus {
+	    border-color: #ccc;
+	}
+}
+#tipue_drop_content {
+     display: none;
+     position: absolute;
+     top: 40%;
+     background-color: #fff;
+	border: 1px solid #e2e2e2;
+	margin: 7px 20px 0 0;
+	z-index: 50;
+}
+#tipue_drop_wrapper
+{
+    display: table;
+    margin-bottom: 7px;
+    a {
+    	text-decoration: none;
+    }
+}
+
+.tipue_drop_item
+{
+     display: table-row;
+	background-color: #fff;
+	&:hover {
+	    background-color: #f7f7f7;
+	}
+}
+#tipue_drop_head
+{
+    display: table-row;
+	background-color: #fff;
+}
+#tipue_drop_head_text
+{
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px 15px;
+    font: 12px/1.6 'Open Sans', sans-serif;
+    color: #333;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.tipue_drop_image
+{
+    width: 60px;
+    height: auto;
+    outline: none;
+}
+.tipue_drop_left
+{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px;
+}
+.tipue_drop_right
+{
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 250px;
+    padding: 15px 15px 15px 0;
+}
+.tipue_drop_right_title
+{
+    font: 13px/1 'Open Sans', sans-serif;
+	color: #333;
+}
+.tipue_drop_right_text
+{
+    font: 300 13px/1.6 'Open Sans', sans-serif;
+	color: #555;
+    padding-top: 5px;
+}

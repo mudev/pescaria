@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{{title}}</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,900italic,300,700' rel='stylesheet' type='text/css'>
+		<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+	{{#production}}
+			<link rel="stylesheet" href="../css/main.min.css" />
+			<script src="../js/vendor/modernizr.min.js"></script>
+	{{else}}
+			<link rel="stylesheet" href="../css/main.css" />
+			<script src="../js/vendor/modernizr.js"></script>
+	{{/production}}
+	</head>
+	<body>
+		{{>header}}
+		<div class="row">{{>body}}</div>
+		{{>footer}}
+	{{#production}}
+			<script src="../js/vendor/jquery.min.js"></script>
+			 <script src="../js/vendor/openWeather.min.js"></script>
+			 <script src="../js/vendor/tipuedrop_content.js"></script>
+		 	<script src="../js/vendor/tipuedrop.js"></script>
+			<script src="../js/frontend.min.js"></script>
+	{{else}}
+			<script src="../js/vendor/jquery.js"></script>
+			 <script src="../js/vendor/openWeather.min.js"></script>
+			 <script src="../js/vendor/tipuedrop_content.js"></script>
+		 	<script src="../js/vendor/tipuedrop.js"></script>
+			<script src="../js/frontend.js"></script>
+	{{/production}}
+		<script>$(document).foundation();</script>
+		<script>$(window).load(function(){
+            var $container = $('.species');
+            // initialize isotope
+            $container.isotope({
+              itemSelector : '.item',
+              layoutMode : 'fitRows',
+              getSortData: {
+                name: '.name' // text from querySelector
+              },
+              sortBy : 'name',
+              masonry: {
+                columnWidth: 320
+              }
+              // options...
+            });
+            // bind filter button click
+			$('#filters').on('click', 'button', function() {
+				var filterValue = $(this).attr('data-filter');
+				// use filterFn if matches value
+				$container.isotope({ filter: filterValue });
+			});
+            // filter items when filter link is clicked
+			$('.button-group').each(function(i, buttonGroup){
+				var $buttonGroup = $(buttonGroup);
+				$buttonGroup.on('click', 'button', function(){
+					$buttonGroup.find('.active').removeClass('active');
+					$( this ).addClass('active');
+				});
+			});
+        });
+        </script>
+		<script>$(document).ready(function() {
+			$('#tipue_drop_input').tipuedrop();
+			$('.weather-temperature').openWeather({
+				city: 'Funchal, Madeira',
+				descriptionTarget: '.weather-description',
+				windSpeedTarget: '.weather-wind-speed',
+				minTemperatureTarget: '.weather-min-temperature',
+				maxTemperatureTarget: '.weather-max-temperature',
+				humidityTarget: '.weather-humidity',
+				sunriseTarget: '.weather-sunrise',
+				sunsetTarget: '.weather-sunset',
+				placeTarget: '.weather-place',
+
+				customIcons: '../img/weather/',
+				success: function() {
+					//show weather
+					$('.weather-wrapper').show();
+				},
+				error: function(message) {
+					console.log(message);
+				}
+			});
+		});
+		</script>
+	</body>
+</html>

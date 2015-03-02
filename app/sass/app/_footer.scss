@@ -1,0 +1,89 @@
+// footer CSS
+.footer {
+	background-color: $moss;
+	padding: 2rem 4rem;
+	text-align: center;
+	color: $text-color;
+	.fa {
+		font-size: 86px;
+		text-shadow: 1px 1px 1px lighten($metalblue, 20%);
+	}
+	.fa-diamond {
+		font-size: 60px;
+		margin-top: 16px;
+
+	}
+	.footer-links {
+		text-align: left;
+		list-style-type: none;
+		margin-top: 1.5em;
+		i {
+			font-size: 16px;
+			margin-right: 2%;
+		}
+
+		li {
+			font-size: 1.05em;
+			text-align: center;
+		}
+		a {
+			width: 100%;
+			display: block;
+		}
+	}
+	h4 {
+		color: $text-color;
+		font-size: 1.25em;
+		font-weight: 400;
+		text-transform: uppercase;
+		// margin-top: 2.5rem;
+		margin-bottom: 10px;
+	}
+	p, a {
+		padding: 0.25em 0.5em;
+		font-weight: 300;
+		font-size: .8em;
+		color: $text-color;
+	}
+	.pesca {
+
+		h4 {
+			margin-top: 15px;
+		}
+	}
+}
+
+@media only screen and (min-width: 40.063em) {
+.footer {
+  .columns:nth-child(n+2) {
+    border-left: 1px solid scale-color($text-color, $lightness: -30%);
+    min-height: 280px;
+  }
+ }
+}
+.weather-wrapper {
+	margin: 0 0 5% 0;
+	padding: 0 5% 40px;
+	float: left;
+	color: white;
+	width: 100%;
+	strong {
+		float: left;
+	}
+	span {
+		float: right;
+	}
+	dt {
+		font-size: 0.9em;
+		margin: 0;
+		clear: both;
+	}
+	dd {
+		position: relative;
+		bottom: 2px;
+		text-align: right;
+	}
+	.weather-place {
+		font-size: 1em;
+	}
+}
