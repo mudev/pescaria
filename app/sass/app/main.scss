@@ -45,6 +45,7 @@
 	"footer",
 	"frontpage",
 	"places",
+	"tackle",
 	"charter",
 	"species",
 	"lrf";
@@ -89,39 +90,4 @@ zoom: 1 ;
 }
 #featured {
 	max-height: 500px;
-}
-
-
-//Tackle Page
-.pfd {
-	padding:2em;
-	margin:0;
-	li {
-		display: inline-block;
-		list-style-type: none;
-		min-height: 200px;
-	}
-	img {
-		max-height: 200px;
-	}
-	.title {
-		margin-top: auto;
-	}
-	.bullet-item {
-		margin: 0;
-		padding: 0;
-	}
-	.price {
-		h3 {
-			position: relative;
-			top: 0;
-		}
-	}
-	.description p {
-		font-size: 1.005em;
-	}
-	.cta-button {
-		padding:0;
-		margin:50px 0;
-	}
 }

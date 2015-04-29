@@ -9,7 +9,7 @@
 //       height: auto;
 //       display: block;
        	background: $yellowz;
-    	font-size: 20px;
+        font-size: 20px;
 //       margin: 0;
     }
 
@@ -116,11 +116,11 @@
 
 			a {
         position: relative;
-	        	font-weight: lighter;
-	        	padding: 15px $topbar-height / 3;
-	        	text-align: center;
-	        	color: $siteblack;
-       		}
+        font-weight: lighter;
+        padding: 15px $topbar-height / 3;
+        text-align: center;
+        color: $siteblack;
+      }
 
 //         &.title h5 { margin-bottom: 0;
 //           a {
@@ -140,16 +140,19 @@
 //         font-size: $topbar-dropdown-label-font-size;
 //       }
     }
- }
- .top-bar {
- 	background: url(../img/asset/madeiraflag.png)no-repeat center left $yellowz;
-  .name {
-
-    h1 {
-      text-shadow: 1px 1px 1px $tan;
-    }
+}
+.top-bar {
+  background: url(../img/asset/madeiraflag.png) no-repeat center left $yellowz;
+  height: 80px;
+  .title-area {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
   }
- }
+  h1 {
+    text-shadow: 1px 1px 0px $themeblue;
+  }
+}
 nav {
 	@include shad;
 	h4{
@@ -230,8 +233,8 @@ Tipue drop is released under the MIT License
 http://www.tipue.com/drop
 */
 #tipue_drop_input {
-    font: 13px/1.6 'lato', sans-serif;
-	color: #333;
+  font: 13px/1.6 'lato', sans-serif;
+  color: $siteblack;
 	padding: 12px 12px 12px 40px;
 	width: 170px;
 	border: 1px solid #e2e2e2;
@@ -241,7 +244,7 @@ http://www.tipue.com/drop
      box-shadow: none;
 	outline: 0;
 	margin: 0;
-	background: url('../../img/asset/search.png') no-repeat 6px 6px;
+  background: url('../../img/asset/search.png') no-repeat $sitewhite 6px 6px;
 	&:focus {
 	    border-color: #ccc;
 	}
@@ -264,56 +267,48 @@ http://www.tipue.com/drop
     }
 }
 
-.tipue_drop_item
-{
-     display: table-row;
+.tipue_drop_item {
+  display: table-row;
 	background-color: #fff;
 	&:hover {
 	    background-color: #f7f7f7;
 	}
 }
-#tipue_drop_head
-{
-    display: table-row;
+#tipue_drop_head {
+  display: table-row;
 	background-color: #fff;
 }
-#tipue_drop_head_text
-{
-    display: table-cell;
-    vertical-align: top;
-    padding: 10px 15px;
-    font: 12px/1.6 'Open Sans', sans-serif;
-    color: #333;
+#tipue_drop_head_text {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px 15px;
+  font: 12px/1.6 'Open Sans', sans-serif;
+  color: #333;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-.tipue_drop_image
-{
-    width: 60px;
-    height: auto;
-    outline: none;
+.tipue_drop_image {
+  width: 60px;
+  height: auto;
+  outline: none;
 }
-.tipue_drop_left
-{
-    display: table-cell;
-    vertical-align: middle;
-    padding: 15px;
+.tipue_drop_left {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 15px;
 }
-.tipue_drop_right
-{
-    display: table-cell;
-    vertical-align: middle;
-    max-width: 250px;
-    padding: 15px 15px 15px 0;
+.tipue_drop_right {
+  display: table-cell;
+  vertical-align: middle;
+  max-width: 250px;
+  padding: 15px 15px 15px 0;
 }
-.tipue_drop_right_title
-{
-    font: 13px/1 'Open Sans', sans-serif;
+.tipue_drop_right_title {
+  font: 13px/1 'Open Sans', sans-serif;
 	color: #333;
 }
-.tipue_drop_right_text
-{
-    font: 300 13px/1.6 'Open Sans', sans-serif;
+.tipue_drop_right_text {
+  font: 300 13px/1.6 'Open Sans', sans-serif;
 	color: #555;
-    padding-top: 5px;
+  padding-top: 5px;
 }

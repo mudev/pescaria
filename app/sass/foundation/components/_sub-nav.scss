@@ -4,7 +4,8 @@
 $include-html-nav-classes: $include-html-classes !default;
 
 // We use these to control margin and padding
-$sub-nav-list-margin:        emCalc(-4px) 0 emCalc(18px) !default;
+// $sub-nav-list-margin:        emCalc(-4px) 0 emCalc(18px) !default;
+$sub-nav-list-margin:        0;
 $sub-nav-list-padding-top:   emCalc(4px) !default;
 
 // We use this to control the definition

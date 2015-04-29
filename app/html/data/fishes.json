@@ -7,7 +7,7 @@
 			"latin": "Manta birostris",
 			"tag": "blank",
 			"imgurl": "/img/fish/manta_birostris.jpg",
-			"notes": "Filter feeders, consuming large quantities of zooplankton in the form of shrimp, krill and planktonic crabs.Can grow to a disc size of up to 9 m (30 ft) across, with a weight of about 1,350 kg (2,980 lb)"
+			"notes": "Filter feeders, consuming large quantities of zooplankton.Can grow up to 9 m (30 ft) across, weighing about 1,350 kg (2,980 lb)"
 		},
 		{
 			"id": "1",
@@ -25,7 +25,7 @@
 			"latin": "Myliobatis aquila",
 			"tag": "shore",
 			"imgurl": "/img/fish/myliobatis_aquila.jpg",
-			"notes": "Eagle rays feed on mollusks and crustaceans.Can grow extremely large, up to 180 cm including the tail. The tail looks like a whip and may be as long as the body-armed with a sting.Living close to the coast in depths of 1 to 30 m and in exceptional cases they are found as deep as 300 m."
+			"notes": "Eagle rays feed on mollusks and crustaceans.Can grow extremely large, up to 180 cm including the tail (whip-like, armed with a sting and may be as long as the body)."
 		},
 		{
 			"id": "3",
@@ -34,7 +34,7 @@
 			"latin": "Taeniura grabata",
 			"tag": "shore",
 			"imgurl": "/img/fish/roundStingray001.jpg",
-			"notes": "The round fantail stingray has a nearly circular pectoral fin disk slightly wider than long. one or more stinging spines on the upper surface of the tail.The skin is mostly smooth, save for small dermal denticles found along the middle of the back from the spiracles to the tail spine, as well as three thorns on the 'shoulders'. The coloration is dark gray to brown to olive above, with various darker mottling, and off-white below.grows up to 1 m(3.3ft) across and 1.5m(4.9ft) long."
+			"notes": "The round fantail stingray has a nearly circular pectoral fin disc.The skin is mostly smooth, small dermal denticles found along the middle of the back from the spiracles to the tail spine, as well as three thorns on the 'shoulders'.Dark gray to brown/olive above, with various darker mottling, and off-white below.Grows up to 1 m(3.3ft) across and 1.5m(4.9ft) long."
 		},
 		{
 			"id": "4",
@@ -43,7 +43,7 @@
 			"latin": "Dasyatis pastinaca",
 			"tag": "shore",
 			"imgurl": "/img/fish/stingray_01.jpg",
-			"notes": "Typically inhabits sandy or muddy habitats in coastal waters,eating bottom-dwelling crustaceans,molluscs, polychaete worms, and small bony fishes.Usually measuring 45cm(18in) across,it can be identified by its plain coloration and mostly smooth skin, except for a row of tubercles along the midline of the back in the largest individuals.And a dirty great tail with a lethal sting,duhh."
+			"notes": "Inhabits sandy or muddy habitats in coastal waters,eating bottom-dwelling crustaceans,molluscs, worms and small fishes.Usually measuring 45cm(18in) across,it can be identified by its plain coloration and mostly smooth skin. And a dirty great tail with a lethal sting of course."
 		},
 		{
 			"id": "5",
@@ -52,7 +52,7 @@
 			"latin": "Gymnura altavela",
 			"tag": "shore",
 			"imgurl": "/img/fish/gymnura_altavela.jpg",
-			"notes": "A large ray that can measure over 2m (6 ft 7 in) across, it may be distinguished from the Smooth butterfly ray (G.micrura) by the spine at the base of its tail and by a small tentacular structure on the margin of each spiracle. Slow-reproducing and valued for its meat, in recent decades its population has experienced a decline of over 30%, and it has become Critically Endangered in certain parts"
+			"notes": "A large ray that can measure over 2m (6ft 7in) across, distinguished by the spine at the base of its tail and by a small tentacular structure on the margin of each spiracle. Slow reproducing and valued for its meat, in recent decades it has become Critically Endangered in certain parts."
 		},
 		{
 			"id": "6",
@@ -79,7 +79,7 @@
 			"latin": "Synodus saurus",
 			"tag": "lrf",
 			"imgurl": "/img/fish/synodus_saurus.jpg",
-			"notes": "is mainly known to be found in insular waters and on top of sandy or sand-rock bottoms.[1] The diet of the Atlantic lizardfish mainly includes other species of fish, but it is known to also feed occasionally on other animals. The Atlantic lizardfish can be found occupying waters around islands.[3] The Atlantic lizardfish keeps itself hidden and camouflaged by burrowing itself in the sand."
+			"notes": "Mainly found in insular waters/sandy or sand-rock bottoms. Keeps itself hidden and camouflaged by burrowing itself in the sand."
 		},
 		{
 			"id": "9",
@@ -106,7 +106,7 @@
 			"latin": "Muraena helena",
 			"tag": "game",
 			"imgurl": "/img/fish/muraena_helena.jpg",
-			"notes": "sometimes also called Roman eel, Muraena helena) is a fish of the moray eel family. It has a long eel-like body and is found in the eastern Atlantic Ocean and Mediterranean Sea. Its bite can be dangerous to humans.See Pharyngeal Jaw."
+			"notes": "Long eel-like body, found in the eastern Atlantic Ocean and Mediterranean Sea. Its bite can be dangerous to humans.See Pharyngeal Jaw."
 		},
 		{
 			"id": "12",
@@ -151,7 +151,7 @@
 			"latin": "Conger conger",
 			"tag": "game",
 			"imgurl": "/img/fish/conger-conger.jpg",
-			"notes": "Ah back to familiar beasts from the deep.yes we know all about this arm ripper.Hides in holes as all the eels do, so another mainly nocturnal fish"
+			"notes": "Ah back to familiar beasts from the deep.yes we know all about this arm-ripper.Hides in holes as all the eels do, so another mainly nocturnal fish."
 		},
 		{
 			"id": "17",

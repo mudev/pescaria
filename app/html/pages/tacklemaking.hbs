@@ -36,24 +36,6 @@ layout: app/html/layouts/default.hbs
             </div>
         </div>
         <div class="row">
-            <div class="large-12 columns">
-                <h3>Business End</h3>
-                <ul class="clearing-thumbs small-block-grid-3 large-block-grid-6" data-clearing>
-                    <li><a href="/img/lures/hto-shore-jig.jpg"><img src="/img/lures/hto-shore-jig-th.jpg" data-caption="HTO Shore Jig (5g, 28g)"></a></li>
-                    <li><a href="/img/lures/lrf-mini-casting-jigs.jpg"><img src="/img/lures/lrf-mini-casting-jigs-th.jpg" data-caption="SG LRF mini Jigs 8g"></a></li>
-                    <li><a href="/img/lures/pencil-prey-lures.jpg"><img src="/img/lures/pencil-prey-lures-th.jpg" data-caption="SG Pencil Prey(14g, 24g)"></a></li>
-                    <li><a href="/img/lures/psycho-sprat-lure.jpg"><img src="/img/lures/psycho-sprat-lure-th.jpg" data-caption="SG Psycho Sprat 28g"></a></li>
-                    <li><a href="/img/lures/manic_prey-pearl_ghost.jpg"><img src="/img/lures/manic_prey-pearl_ghost-th.jpg" data-caption="SG Manic Prey - Pearl 33g"></a></li>
-                    <li><a href="/img/lures/manic_prey-dirty_silver.jpg"><img src="/img/lures/manic_prey-dirty_silver-th.jpg" data-caption="SG Manic Prey - Silver 33g"></a></li>
-                    <li><a href="/img/lures/saltwater-tuned-prey-lures.jpg"><img src="/img/lures/saltwater-tuned-prey-lures-th.jpg" data-caption="SG Saltwater Tuned Prey - Lemon 21g"></a></li>
-                    <li><a href="/img/lures/sea-krill.jpg"><img src="/img/lures/sea-krill-th.jpg" data-caption="Sea Krill 20g"></a></li>
-                    <li><a href="/img/lures/megabass_metal.jpg"><img src="/img/lures/megabass_metal-th.jpg" data-caption="Megabass Metal Edge 27g"></a></li>
-                    <li><a href="/img/lures/wax118.jpg"><img src="/img/lures/wax118-th.jpg" data-caption="Shimano Waxwing 45g"></a></li>
-                    <li class="end"><a href="/img/lures/xrap14.jpg"><img src="/img/lures/xrap14-th.jpg" data-caption="Rapala X-Rap Slashbait"></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
             <h3>Soft Lures</h3>
             <div class="large-4 small-6 columns">
                 <video width="303" height="250" preload="none" poster="/img/mp4/sandeel/sandeel-poster.jpg" controls>
@@ -78,6 +60,15 @@ layout: app/html/layouts/default.hbs
                 <h6 class="panel">Saltwater Sandeel</h6>
             </div>
         </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <h3>Business End</h3>
+                <ul class="clearing-thumbs small-block-grid-3 medium-block-grid-6 large-block-grid-6" data-clearing>
+                    {{#each lures.list}}{{> luresui}}{{/each}}
+                </ul>
+            </div>
+        </div>
+
         <div class="row">
             <h3>Lure Construction</h3>
             <div class="large-3 small-6 columns flex-video">

@@ -51,10 +51,31 @@
 		},
 		{
 			"name": "Nookie Ranger II",
-			"price": "71.96",
+			"price": "72.99",
 			"imgurl": "http://www.nookie.co.uk/images/magictoolbox_cache/c9870ad6629eeac0d043eb471f523256/7/8/78/thumb400x400/-2042365900/nookieranger.jpg",
 			"link": "http://www.nookie.co.uk/ranger-buoyancy-aid-canoeing-fishing-pfd?cPath=1&zenid=b25hf9aa23cg9u0c8tibrkdih0",
 			"notes": "Expandable zipped neoprene front & back pockets.Large back pocket (takes hydration system) with extra mesh pocket for flares etc.."
+		},
+		{
+			"name": "Palm Hydro Adventure",
+			"price": "71.96",
+			"imgurl": "http://ecx.images-amazon.com/images/I/61lMC5aGiIL._SY450_.jpg",
+			"link": "http://www.amazon.co.uk/Palm-Hydro-Adventure-NAVY-BA240/dp/B004JA61CI",
+			"notes": "Traditional foam template covers chest and back, YKK front zip entry"
+		},
+		{
+			"name": "Waveline 150N",
+			"price": "45.95",
+			"imgurl": "/img/asset/waveline.jpg",
+			"link": "http://www.amazon.co.uk/Waveline-Adult-Automatic-Lifejacket-Black/dp/B00ABKOIJ8/ref=pd_sim_sbs_sg_2?ie=UTF8&refRID=0V1CQJJNB7CYKSV1090P",
+			"notes": "Auto and manual lifejacket"
+		},
+		{
+			"name": "Typhoon Cyclone 150N",
+			"price": "51.95",
+			"imgurl": "/img/asset/typhoon.jpg",
+			"link": "http://www.amazon.co.uk/Typhoon-Cyclone-150N-Jacket-Fishing/dp/B00EAEZI0Y/ref=pd_sim_sbs_sg_6?ie=UTF8&refRID=06D252TB35XR9QNM5KG7",
+			"notes": "Auto and manual lifejacket"
 		}
 	]
 }
