@@ -38,7 +38,7 @@
 		{
 			"name": "Crewsaver Teviot Auto",
 			"price": "145.95",
-			"imgurl": "/img/asset/auto.jpg",
+			"imgurl": "../img/asset/auto.jpg",
 			"link": "http://www.wetsuitoutlet.co.uk/crewsaver-teviot-50n-fly-fishing-lifejacket-vest-auto-inflation-2379-p-6942.html",
 			"notes": "Inflation occurs automatically when the capsule is immersed.Capsule fires within 5 seconds of entry into water.Can also be inflated as manual version."
 		},
@@ -66,14 +66,14 @@
 		{
 			"name": "Waveline 150N",
 			"price": "45.95",
-			"imgurl": "/img/asset/waveline.jpg",
+			"imgurl": "../img/asset/waveline.jpg",
 			"link": "http://www.amazon.co.uk/Waveline-Adult-Automatic-Lifejacket-Black/dp/B00ABKOIJ8/ref=pd_sim_sbs_sg_2?ie=UTF8&refRID=0V1CQJJNB7CYKSV1090P",
 			"notes": "Auto and manual lifejacket"
 		},
 		{
 			"name": "Typhoon Cyclone 150N",
 			"price": "51.95",
-			"imgurl": "/img/asset/typhoon.jpg",
+			"imgurl": "../img/asset/typhoon.jpg",
 			"link": "http://www.amazon.co.uk/Typhoon-Cyclone-150N-Jacket-Fishing/dp/B00EAEZI0Y/ref=pd_sim_sbs_sg_6?ie=UTF8&refRID=06D252TB35XR9QNM5KG7",
 			"notes": "Auto and manual lifejacket"
 		}

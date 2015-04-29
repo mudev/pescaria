@@ -8,7 +8,7 @@
 			"weight" : "21g",
 			"depth" : "n/a",
 			"pattern" : "Mackerel",
-			"image" : "/img/lures/shallow-runner-mackerel"
+			"image" : "../img/lures/shallow-runner-mackerel"
 		},
 		{
 			"make": "Daiwa",
@@ -18,7 +18,7 @@
 			"weight" : "22g",
 			"depth" : "n/a",
 			"pattern" : "Mackerel",
-			"image" : "/img/lures/jointed-shallow-runner-mackerel"
+			"image" : "../img/lures/jointed-shallow-runner-mackerel"
 		},
 		{
 			"make": "Maria",
@@ -28,7 +28,7 @@
 			"weight" : "17g",
 			"depth" : "n/a",
 			"pattern" : "GFRM",
-			"image" : "/img/lures/maria-flying-diver"
+			"image" : "../img/lures/maria-flying-diver"
 		},
 		{
 			"make": "Rapala",
@@ -38,7 +38,7 @@
 			"weight" : "12g",
 			"depth" : "1-2m",
 			"pattern" : "silver",
-			"image" : "/img/lures/xrap14"
+			"image" : "../img/lures/xrap14"
 		},
 		{
 			"make": "Savagear",
@@ -48,7 +48,7 @@
 			"weight" : "24g",
 			"depth" : "",
 			"pattern" : "Sandeel",
-			"image" : "/img/lures/pencil-prey-lures"
+			"image" : "../img/lures/pencil-prey-lures"
 		},
 		{
 			"make": "Savagear",
@@ -58,7 +58,7 @@
 			"weight" : "33g",
 			"depth" : "2-4ft",
 			"pattern" : "Dirty Silver",
-			"image" : "/img/lures/manic_prey-dirty_silver"
+			"image" : "../img/lures/manic_prey-dirty_silver"
 		},
 		{
 			"make": "Savagear",
@@ -68,7 +68,7 @@
 			"weight" : "33g",
 			"depth" : "2-4ft",
 			"pattern" : "Ghost Pearl",
-			"image" : "/img/lures/manic_prey-pearl_ghost"
+			"image" : "../img/lures/manic_prey-pearl_ghost"
 		},
 		{
 			"make": "Savagear",
@@ -78,7 +78,7 @@
 			"weight" : "21g",
 			"depth" : "0.4-0.8m",
 			"pattern" : "Red Head Flash",
-			"image" : "/img/lures/saltwater-tuned-prey-lures-red-head"
+			"image" : "../img/lures/saltwater-tuned-prey-lures-red-head"
 		},
 		{
 			"make": "Savagear",
@@ -88,7 +88,7 @@
 			"weight" : "21g",
 			"depth" : "0.4-0.8m",
 			"pattern" : "Lemon Back Flash",
-			"image" : "/img/lures/saltwater-tuned-prey-lures"
+			"image" : "../img/lures/saltwater-tuned-prey-lures"
 		},
 		{
 			"make": "Shimano",
@@ -98,7 +98,7 @@
 			"weight" : "45g",
 			"depth" : "0-4m",
 			"pattern" : "Black Chrome",
-			"image" : "/img/lures/wax118"
+			"image" : "../img/lures/wax118"
 		},
 		{
 			"make": "Storm",
@@ -108,7 +108,7 @@
 			"weight" : "17g",
 			"depth" : "n/a",
 			"pattern" : "565",
-			"image" : "/img/lures/flutterstick-mf"
+			"image" : "../img/lures/flutterstick-mf"
 		},
 		{
 			"make": "Take",
@@ -118,7 +118,7 @@
 			"weight" : "16g",
 			"depth" : "",
 			"pattern" : "Green Sardine",
-			"image" : "/img/lures/take-slim-minnow"
+			"image" : "../img/lures/take-slim-minnow"
 		},
 		{
 			"make": "Take",
@@ -128,7 +128,7 @@
 			"weight" : "20.5g",
 			"depth" : "0-30cm",
 			"pattern" : "A09",
-			"image" : "/img/lures/witch-minnow2"
+			"image" : "../img/lures/witch-minnow2"
 		},
 		{
 			"make": "Take",
@@ -138,7 +138,7 @@
 			"weight" : "17.8g",
 			"depth" : "n/a",
 			"pattern" : "Silver Minnow",
-			"image" : "/img/lures/super-minnow"
+			"image" : "../img/lures/super-minnow"
 		},
 		{
 			"make": "Take",
@@ -148,7 +148,7 @@
 			"weight" : "18g",
 			"depth" : "",
 			"pattern" : "B42",
-			"image" : "/img/lures/sensei"
+			"image" : "../img/lures/sensei"
 		},
 		{
 			"make": "Dennings",
@@ -158,7 +158,7 @@
 			"weight" : "20g",
 			"depth" : "n/a",
 			"pattern" : "chrome blue",
-			"image" : "/img/lures/sea-krill"
+			"image" : "../img/lures/sea-krill"
 		},
 		{
 			"make": "HTO",
@@ -168,7 +168,7 @@
 			"weight" : "28g",
 			"depth" : "n/a",
 			"pattern" : "baitfish",
-			"image" : "/img/lures/hto-shore-jig"
+			"image" : "../img/lures/hto-shore-jig"
 		},
 		{
 			"make": "Megabass",
@@ -178,7 +178,7 @@
 			"weight" : "27g",
 			"depth" : "n/a",
 			"pattern" : "Super Gigo",
-			"image" : "/img/lures/megabass_metal"
+			"image" : "../img/lures/megabass_metal"
 		},
 		{
 			"make": "Savagear",
@@ -188,7 +188,7 @@
 			"weight" : "28g",
 			"depth" : "n/a",
 			"pattern" : "Psycho sardine",
-			"image" : "/img/lures/psycho-sprat-lure"
+			"image" : "../img/lures/psycho-sprat-lure"
 		},
 		{
 			"make": "Yokozuna",
@@ -198,7 +198,7 @@
 			"weight" : "20g",
 			"depth" : "0-1m",
 			"pattern" : "MA02",
-			"image" : "/img/lures/yo_montero"
+			"image" : "../img/lures/yo_montero"
 		},
 		{
 			"make": "Yokozuna",
@@ -208,7 +208,7 @@
 			"weight" : "23g",
 			"depth" : "0 - 1.5m",
 			"pattern" : "L09 Redhead",
-			"image" : "/img/lures/flamingo"
+			"image" : "../img/lures/flamingo"
 		},
 		{
 			"make": "Tackle House",
@@ -218,7 +218,7 @@
 			"weight" : "22g",
 			"depth" : "0 - 1m",
 			"pattern" : "aqua silver",
-			"image" : "/img/lures/tackleminnow"
+			"image" : "../img/lures/tackleminnow"
 		}
 	]
 }
