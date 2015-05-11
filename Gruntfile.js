@@ -64,7 +64,8 @@ module.exports = function(grunt) {
     connect: {
       options: {
         port: 9090,
-        hostname: 'localhost' // change this to '0.0.0.0' to access the server from outside
+        //hostname: 'localhost' // change this to '0.0.0.0' to access the server from outside
+        hostname: '0.0.0.0' // change this to '0.0.0.0' to access the server from outside
       },
       livereload: {
         options: {
@@ -117,19 +118,19 @@ module.exports = function(grunt) {
         src: [
           'bower_components/gmap3/dist/gmap3.js',
           'app/js/foundation/foundation.js',
-          // 'app/js/foundation/foundation.alerts.js',
-          // 'app/js/foundation/foundation.clearing.js',
-          // 'app/js/foundation/foundation.cookie.js',
+          'app/js/foundation/foundation.alerts.js',
+          'app/js/foundation/foundation.clearing.js',
+          'app/js/foundation/foundation.cookie.js',
           'app/js/foundation/foundation.dropdown.js',
-          // 'app/js/foundation/foundation.forms.js',
-          // 'app/js/foundation/foundation.interchange.js',
-          // 'app/js/foundation/foundation.joyride.js',
+          'app/js/foundation/foundation.forms.js',
+          'app/js/foundation/foundation.interchange.js',
+          'app/js/foundation/foundation.joyride.js',
           'app/js/foundation/foundation.magellan.js',
           'app/js/foundation/foundation.orbit.js',
-          // 'app/js/foundation/foundation.placeholder.js',
+          'app/js/foundation/foundation.placeholder.js',
           'app/js/foundation/foundation.reveal.js',
-          // 'app/js/foundation/foundation.section.js',
-          // 'app/js/foundation/foundation.tooltips.js',
+          'app/js/foundation/foundation.section.js',
+          'app/js/foundation/foundation.tooltips.js',
           'app/js/foundation/foundation.topbar.js',
           'bower_components/isotope/dist/isotope.pkgd.js',
           'app/js/app/app.js',
@@ -190,6 +191,9 @@ module.exports = function(grunt) {
         files: [
           { expand: true, cwd: 'app/html/pages/', src: '**/*.html', dest: 'dist/html/' },
         ],
+      },
+      font_awesome: {
+        expand: true, flatten: true, src: ['bower_components/fontawesome/fonts/*'],dest: 'dist/fonts'
       },
     },
 
@@ -269,7 +273,12 @@ module.exports = function(grunt) {
         (grunt.watchcontext === 'production') ?
         grunt.task.run(['clean:css', 'sass', 'cssmin', 'clean:devcss']) :
         grunt.task.run(['clean:css', 'sass']);
-        break; 
+        break;
+      case 'font_awesome':
+        (grunt.watchcontext === 'production') ?
+        grunt.task.run(['copy:font_awesome']) :
+        grunt.task.run(['copy:font_awesome']);
+        break;
     }
   });
 
@@ -294,6 +303,7 @@ module.exports = function(grunt) {
     'copy:img',
     'copy:js',
     'copy:html',
+    'copy:font_awesome',
     'assemble:development'
   ]);
 

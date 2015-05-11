@@ -18,4 +18,7 @@ Server development
 
 ## Useful links
 
-- [Handlebars helpers included in assemble](https://github.com/assemble/helper-lib)# pescaria
+- [Handlebars helpers in assemble](https://github.com/assemble/helper-lib)
+- [TipueDrop Search JS](https://github.com/Tipue/Tipue-Search)
+- [Isotope JS](http://isotope.metafizzy.co/)
+- [OpenWeather API](http://michael-lynch.github.io/open-weather/)
