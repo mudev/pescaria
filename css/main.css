@@ -6464,9 +6464,9 @@ Tipue drop is released under the MIT License
 http://www.tipue.com/drop
 */
 #tipue_drop_input {
-  font: 13px/1.6 'lato', sans-serif;
+  font: 13px;
   color: #10161c;
-  padding: 12px 12px 12px 40px;
+  padding-left: 24px;
   width: 170px;
   border: 1px solid #e2e2e2;
   border-radius: 0;
@@ -6485,7 +6485,7 @@ http://www.tipue.com/drop
   top: 40%;
   background-color: #fff;
   border: 1px solid #e2e2e2;
-  margin: 7px 20px 0 0;
+  margin: 21px 20px 0 0;
   z-index: 50; }
 
 #tipue_drop_wrapper {
@@ -6660,8 +6660,9 @@ h1 {
     transition-duration: 780ms; }
 
 .footer {
+  font-size: 1.25em;
   background-color: #42b078;
-  padding: 2rem 4rem;
+  padding: 2rem 0.5rem;
   text-align: center;
   color: white; }
   .footer .fa {
@@ -6671,6 +6672,7 @@ h1 {
     font-size: 60px;
     margin-top: 16px; }
   .footer .footer-links {
+    margin: 0;
     text-align: left;
     list-style-type: none;
     margin-top: 1.5em; }
@@ -6682,7 +6684,10 @@ h1 {
       text-align: center; }
     .footer .footer-links a {
       width: 100%;
-      display: block; }
+      display: block;
+      font-size: 1.25rem;
+      padding: 0;
+      margin: 0; }
   .footer h4 {
     color: white;
     font-size: 1.25em;
